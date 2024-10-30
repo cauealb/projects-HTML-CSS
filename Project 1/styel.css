@@ -29,3 +29,16 @@ body {
     color: #ccc;
 }
 
+.infor {
+    display: inline-block;
+    background-color: yellow;   
+    padding: 26px;
+}
+
+.infor img {
+    width: 15%;
+    float: left;
+    border-radius: 6px;
+    margin-left: 20px;
+}
+
