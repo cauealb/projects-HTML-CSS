@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    display: inline-block;
+    background-color: rgb(89, 42, 133);
+    width: 100%;
+    text-align: right;
+    
+}
+
+.hero li {
+    list-style: none;
+    display: inline-block;
+    
+}
+
+.a-menu {
+    padding: 16px;
+    margin: 12px 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+.a-menu:hover {
+    color: #ccc;
+}
+
