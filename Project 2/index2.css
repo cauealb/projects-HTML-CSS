@@ -47,6 +47,7 @@ a:hover {
     margin: 100px auto;
     text-align: center;
     padding: 12px;
+    display: block;
 }
 
 .main .principal {
@@ -55,14 +56,16 @@ a:hover {
 }
 
 .p-principal {
+    margin-bottom: 12px;
 }
 
 .button a{
+    display: block;
     padding: 10px;
     background-color: rgb(206, 6, 6);
     color: white;
     border-radius: 5px;
-    margin: 7px auto auto auto;
+    margin: 20px auto auto auto;
     width: fit-content;
     text-decoration: none;
 }
