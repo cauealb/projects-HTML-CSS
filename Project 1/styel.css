@@ -1,4 +1,39 @@
 body {
     margin: 0;
     background-color: #323232;
+}   
+
+.contact {
+    display: block;
+    background-color: white;
+    width: 100%;
+    margin-top: 1px;
+}
+
+.contact p {
+    display: block;
+    margin-left: 150px;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.menu ul {
+    display: block;
+    text-align: right;
+    background-color: rgb(83, 36, 126);
+}
+
+.menu ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.menu a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 16px;
+}
+
+.menu a:hover {
+    background-color: rgba(235, 235, 235, 0.327);
 }
