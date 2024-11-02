@@ -4,22 +4,21 @@ body {
 }   
 
 .contact {
-    display: block;
     background-color: white;
     width: 100%;
-    margin-top: 1px;
+    padding-top: 1px;
 }
 
 .contact p {
-    display: block;
-    margin-left: 150px;
+    margin: 0 auto auto 150px;
     padding: 10px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
 .menu ul {
-    display: block;
     text-align: right;
     background-color: rgb(83, 36, 126);
+    margin-top: 0;
 }
 
 .menu ul li {
