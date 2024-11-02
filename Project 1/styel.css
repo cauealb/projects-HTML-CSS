@@ -81,3 +81,13 @@ main .me h1 {
 .path a:hover {
     color: #b2b2b2;
 }
+
+.ft {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(83, 36, 126);
+    border-bottom: 1px solid rgb(83, 36, 126);
+    padding-top: 1px;
+}
