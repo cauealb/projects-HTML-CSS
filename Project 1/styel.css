@@ -31,8 +31,29 @@ body {
     color: white;
     text-decoration: none;
     padding: 16px;
+    margin-left: 12px;
+    letter-spacing: 2px;
+}
+
+#linke {
+    margin-right: 130px;
 }
 
 .menu a:hover {
     background-color: rgba(235, 235, 235, 0.327);
+}
+
+.principal {
+    color: white;
+    font-variant: small-caps;
+}
+
+main .me {
+    margin: 50px auto 150px auto;
+    width: 65%;
+}
+
+main .me h1 {
+    font-size: 45px;
+    color: #ccc;
 }
