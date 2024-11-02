@@ -63,6 +63,11 @@ main .me h1 {
 }
 
 .stacks img {
-    width: 50%;
+    width: 55%;
+    margin-bottom: 50px;
+}
 
+.path {
+    margin: auto;
+    width: 65%;
 }
