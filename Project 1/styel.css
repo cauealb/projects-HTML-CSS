@@ -46,11 +46,12 @@ body {
 .principal {
     color: white;
     font-variant: small-caps;
+    width: 65%;
+    margin: auto;
 }
 
 main .me {
     margin: 50px auto 50px auto;
-    width: 65%;
 }
 
 main .me h1 {
@@ -63,13 +64,8 @@ main .me h1 {
 }
 
 .stacks img {
-    width: 55%;
-    margin-bottom: 50px;
-}
-
-.path {
-    margin: auto;
     width: 65%;
+    margin-bottom: 50px;
 }
 
 .h3-transform {
