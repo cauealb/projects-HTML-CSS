@@ -1,0 +1,16 @@
+body {
+    display: flex;
+    background-color: aqua;
+    margin: 0;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.contact {
+    background-color: white;
+    overflow-y: scroll;
+    width: 30%;
+    width: 300px;
+}
+
