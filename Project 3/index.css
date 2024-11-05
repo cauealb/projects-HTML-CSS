@@ -11,8 +11,9 @@ body {
 .container {
     background-color: white;
     overflow: auto;
-    width: 30%;
+    width: 35%;
     height: 355px;
+    flex: 0 2 500px;
 }
 
 .names {
