@@ -17,22 +17,26 @@ body {
 }
 
 .container__li {
+    display: flex;
+    flex-direction: column;
     list-style: none;
     width: 300px;
     height: 400px;
     background-color: white;
     border-radius: 5%;
     box-shadow: 0 1px 2px;
-    
 }
 
 .container__icons {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 50px;
     background-color: #eee;
     height: 50px;
+    margin-bottom: 0;
+}
+
+.container__img img {
+    border-radius: 50%;
+    justify-content: center;
+    width: 100px;
 }
 
 .container__icons img {
