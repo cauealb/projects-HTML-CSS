@@ -9,14 +9,16 @@ body {
 }
 
 header .Myserver {
+    font-family:  Arial, Helvetica, sans-serif;
     font-size: 36px;
     text-transform: uppercase;
     text-align: left;
-    margin: 10px auto auto 30px;
+    margin: 15px auto auto 30px;
     color: white;
 }
 
 header {
+    font-family: sans-serif;
     background-color: rgba(45, 45, 60, 0.5);
     display: flex;
     width: 70%;
@@ -25,14 +27,28 @@ header {
 
 .menu {
     display: flex;
-    gap: 50px;
+    gap: 15px;
     list-style-type: none;
-    margin: 10px 20px 15px;
+    margin: 10px 50px 15px;
 }
 
-.menu__li a {
+.menu__li a, .menu__li-plano a{
     display: block;
     padding: 16px;
     color: white;
     text-decoration: none;
+    border-radius: 5px;
+}
+
+.menu__li a:hover {
+    background-color: rgba(238, 238, 238, 0.2);
+}
+
+.menu__li-plano {
+    background-color: rgb(149, 198, 53);
+    border-radius: 5px;
+}
+
+.menu__li-plano a:hover {
+    color: black;
 }
