@@ -81,8 +81,21 @@ main {
 .main-cards {
     display: flex;
     flex-direction: column;
-    flex-basis: 300px;
+    flex-basis: 500px;
     padding: 10px;
     background-color: rgba(45, 45, 60, 0.3);
     border-radius: 7px;
+}
+
+.main-cards h3 {
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 20px auto 10px 10px;
+}
+
+.main-cards .linha {
+    background-color: rgb(149, 198, 53);
+    width: 93%;
+    margin: 0 auto 0 auto;
+    height: 2px;
 }
