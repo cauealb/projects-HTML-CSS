@@ -6,6 +6,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: black;
+    text-transform: uppercase;
 }
 
 header .Myserver {
@@ -18,7 +19,7 @@ header .Myserver {
 }
 
 header {
-    font-family: sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: rgba(45, 45, 60, 0.3);
     display: flex;
     width: 70%;
@@ -66,4 +67,22 @@ header {
 
 main {
     color: white;
+}
+
+.cards {
+    width: 80%;
+    max-width: 900px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    gap: 30px;
+}
+
+.main-cards {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 300px;
+    padding: 10px;
+    background-color: rgba(45, 45, 60, 0.3);
+    border-radius: 7px;
 }
