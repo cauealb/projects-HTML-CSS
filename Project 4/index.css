@@ -85,6 +85,7 @@ main {
     padding: 10px;
     background-color: rgba(45, 45, 60, 0.3);
     border-radius: 7px;
+    height: 380px;
 }
 
 .main-cards h3 {
@@ -111,4 +112,21 @@ main {
     border-radius: 10px;
     margin: auto auto 10px auto;
     color: black;
+}
+
+.main-cards ul {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgba(238, 238, 238, 0.5);
+    font-size: 14px;
+    margin-top: 2px;
+}
+
+.main-cards h4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif    ;
+    font-size: 25px;
+    margin: 20px 0 35px 10px;
+}
+
+.main-cards li {
+    margin-top: 7px;
 }
