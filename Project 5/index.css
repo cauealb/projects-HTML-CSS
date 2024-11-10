@@ -60,3 +60,21 @@ body {
 .blocoSeman {
     background-image: url(imagens/card_01.png);
 }
+
+.main-title {
+    margin: 70px auto 20px auto;
+    font-size: 50px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 0 3px 2px black;
+}
+
+.main-info {
+    font-size: 17px;
+    color: white;
+    margin-bottom: 35px;
+    padding: 16px;
+    border-bottom: 2px solid white;
+    background-color: rgba(0, 0, 0, 0.7);
+}
