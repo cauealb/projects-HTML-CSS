@@ -3,5 +3,59 @@ body {
     padding: 0;
     background-image: url(imagens/bg-2.jpg);
     background-size: cover;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    background-color: white;
+    width: 940px;
+    max-width: 960px;
+    height: fit-content;
+    padding: 10px;
+}
+
+.auto {
+    display: flex;
+    align-items: flex-end;
+    flex-basis: 300px;
+    height: 169px;
+}
+
+.autoP {
+    padding: 7px;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 100%;
+}
+
+.blocoSele {
+    background-image: url(imagens/card_01.png);
+}
+
+.blocoPosi {
+    background-image: url(imagens/card_02.jpg);
+}
+
+.blocoFonts {
+    background-image: url(imagens/card_03.jpg);
+}
+
+.blocoFlex {
+    background-image: url(imagens/card_04.jpg);
+}
+
+.blocoCSS {
+    background-image: url(imagens/card_05.jpg);
+}
+
+.blocoSeman {
+    background-image: url(imagens/card_01.png);
+}
