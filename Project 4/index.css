@@ -118,6 +118,7 @@ span {
     color: rgba(238, 238, 238, 0.5);
     font-size: 14px;
     margin-top: 2px;
+    flex: 1;
 }
 
 .main-cards h4 {
