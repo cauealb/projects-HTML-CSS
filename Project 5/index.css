@@ -21,6 +21,7 @@ body {
 }
 
 .header__menu .header__ul {
+    padding: 0;
     list-style: none;
     display: flex;
     justify-content: center;
