@@ -33,7 +33,7 @@ header {
     margin: 10px 50px 15px;
 }
 
-.menu__li a, .menu__li-plano a{
+.menu__li a{
     letter-spacing: 1px;
     display: block;
     padding: 16px;
@@ -46,13 +46,9 @@ header {
     background-color: rgba(238, 238, 238, 0.2);
 }
 
-.menu__li-plano {
-    background-color: rgb(149, 198, 53);
+.menu__li:nth-child(2) {
+    background-color: #cbe300;
     border-radius: 5px;
-}
-
-.menu__li-plano a:hover {
-    color: black;
 }
 
 .main-title {
@@ -95,7 +91,7 @@ main {
 }
 
 .main-cards .linha {
-    background-color: rgb(149, 198, 53);
+    background-color: #cbe300;
     width: 93%;
     margin: 0 auto 0 auto;
     height: 2px;
@@ -108,7 +104,7 @@ main {
     text-decoration: none;
     padding: 16px;
     text-align: center;
-    background-color: rgb(149, 198, 53);
+    background-color: #cbe300;
     border-radius: 10px;
     margin: auto auto 10px auto;
     color: black;
@@ -132,5 +128,5 @@ main {
 }
 
 .main-cards a:hover {
-    background-color: rgb(167, 197, 106);
+    background-color: rgb(144, 185, 61);
 }
