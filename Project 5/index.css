@@ -18,6 +18,7 @@ body {
 .header__logo {
     font-family: Georgia, 'Times New Roman', Times, serif;
     align-self: center;
+    text-align: center;
 }
 
 .header__menu .header__ul {
@@ -52,4 +53,8 @@ body {
 .header__icons img {
     width: 20px;
     height: 20px;
+}
+
+section {
+    background-image: url(image/compras-e-moda-mulher-senior-asiatica-feliz-em-roupas-elegantes-segurando-saco-de-papel-da-loja-mostrando_1258-156242.jpg);
 }
