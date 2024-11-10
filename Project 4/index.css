@@ -130,3 +130,7 @@ main {
 .main-cards li {
     margin-top: 7px;
 }
+
+.main-cards a:hover {
+    background-color: rgb(167, 197, 106);
+}
