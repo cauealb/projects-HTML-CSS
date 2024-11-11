@@ -1,0 +1,35 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.menu__logo {
+    font-family: Georgia, 'Times New Roman', Times, serif   ;
+    line-height: 8px;
+}
+
+.menu__ul {
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+}
+
+.menu__ul a {
+    color: #a9a9a9;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 16px;
+    border-radius: 8px;
+}
+
+.menu__ul a:hover {
+    background-color: rgb(84, 84, 220);
+    color: white;
+}
