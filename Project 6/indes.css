@@ -21,7 +21,7 @@ header {
 }
 
 .menu__ul a {
-    color: #a9a9a9;
+    color: cornflowerblue;
     text-decoration: none;
     font-size: 18px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -32,4 +32,52 @@ header {
 .menu__ul a:hover {
     background-color: rgb(84, 84, 220);
     color: white;
+}
+
+.principal {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 3px;
+}
+
+.principal__info {
+    align-self: center;
+    line-height: 45px;
+}
+
+.principal__info p {
+    color: cornflowerblue;
+    font-weight: bold;
+    line-height: 1px
+}
+
+.principal__info h1 {
+    color: #a8a8a8;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.principal img {
+    width: 400px;
+}
+
+a.principal__sign{
+    color: white;
+    font-size: 26px;
+    letter-spacing: 1px;
+    padding: 10px;
+    text-decoration: none;
+    background-color: cornflowerblue;
+    margin-right: 25px;
+    padding: 10px 30px;
+}
+
+
+a.principal__show {
+    color: cornflowerblue;
+    font-size: 30px;
+    letter-spacing: 1px;
+    padding: 10px;
+    text-decoration: none;
 }
