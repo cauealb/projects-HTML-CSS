@@ -3,21 +3,23 @@ body {
     margin: 0;
 }
 
-header {
+.menu {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-top: 10px;
 }
 
 .menu__logo {
     font-family: Georgia, 'Times New Roman', Times, serif   ;
     line-height: 8px;
+    margin-left: 80px;
 }
 
 .menu__ul {
     display: flex;
     list-style-type: none;
-    gap: 30px;
+    gap: 20px;
+    margin-right: 80px;
 }
 
 .menu__ul a {
@@ -36,13 +38,14 @@ header {
 
 .principal {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-left: 3px;
 }
 
 .principal__info {
     align-self: center;
     line-height: 45px;
+    margin-left: 80px;
 }
 
 .principal__info p {
