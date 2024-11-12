@@ -81,13 +81,20 @@ a.principal__sign{
     padding: 10px 30px;
 }
 
-
-a.principal__show {
-    color: cornflowerblue;
+.principal__info a {
     font-size: 30px;
     letter-spacing: 1px;
     padding: 10px;
     text-decoration: none;
+}
+
+a.principal__show {
+    color: cornflowerblue;
+}
+
+a.principal__show:hover {
+    background-color: cornflowerblue;
+    color: white;
 }
 
 .infos {
