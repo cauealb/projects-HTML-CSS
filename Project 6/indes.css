@@ -89,3 +89,27 @@ a.principal__show {
     padding: 10px;
     text-decoration: none;
 }
+
+.infos {
+    display: flex;
+    background-color: cornflowerblue;
+}
+
+.infos__article p {
+    color: #eee;
+}
+
+.infos__article:nth-child(1){
+    margin-left: 100px;
+}
+
+.infos__article {
+    padding: 33px;
+}
+
+.infos__article:hover {
+    background-color: #ebebeb;
+}
+.infos__article:hover  p  {
+    color: black;
+}
