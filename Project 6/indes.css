@@ -44,25 +44,30 @@ body {
 
 .principal__info {
     align-self: center;
-    line-height: 45px;
+    line-height: 55px;
     margin-left: 80px;
 }
 
 .principal__info p {
     color: cornflowerblue;
     font-weight: bold;
-    line-height: 1px
+    margin-bottom: 1px;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .principal__info h1 {
     color: #a8a8a8;
-    font-size: 50px;
+    font-size: 65px;
     font-weight: bold;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    margin-top: 1px;
 }
 
 .principal img {
-    width: 400px;
+    margin-right: 200px;
+    width: 480px;
 }
 
 a.principal__sign{
