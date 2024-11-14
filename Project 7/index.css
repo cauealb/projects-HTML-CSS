@@ -7,6 +7,10 @@ body {
 .head {
     display: flex;
     justify-content: space-around;
+    border-bottom: 30px solid black;
+    padding: 10px;
+    align-items: center;
+    margin-top: 0;
 }
 
 .head__menu-1 {
@@ -16,30 +20,56 @@ body {
 
 .head__nav ul{
     display: flex;
+    align-items: center;
     gap: 30px;
     list-style-type: none;
 }
 
 .head__nav a {
+   
     color: #2f4f4f;
     text-decoration: none;
     text-transform: uppercase;
     font-family: 'Arial Black';
     font-size: 10px;
     letter-spacing: 1px;
+    padding: 5px;
 }
+
+.head__nav img {
+    align-self: center;
+}
+
+
 
 .head__nav a:hover {
     color: 	#dc143c;
 }
 
+.head__menu-2 {
+    display: flex;
+    gap: 8px;
+}
+
+.head__menu-2 a {
+    padding: 7px;
+    height: 25px;
+    letter-spacing: 2px;
+
+}
 
 /* Largura das imagens */
 .head__logo {
-    width: 70px;
-    height: 70px;
+    width: 50px;
+    height: 50px;
+    align-self: center;
 }
 
 .head__lua, .head__pesquisar {
     width: 20px;
+    height: 20px;
+}
+
+.head__lua {
+    padding: 25px;
 }
