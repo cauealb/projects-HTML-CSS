@@ -208,6 +208,7 @@ body {
 }
 
 .sub-cards {
+    padding: 20px;
     background-color: rgba(238, 238, 238, 0.6);
 }
 
@@ -218,14 +219,13 @@ body {
     align-items: center;
 }
 
-.sub-cards__group h2 {
-    position: relative;
-    right: 420px;    
+.sub-cards h2 {
+    margin-left: 187px;
 }
 
 .sub-cards__img {
     display: flex;
-    gap: 20px;
+    gap: 40px;
 }
 
 /* Footer */
