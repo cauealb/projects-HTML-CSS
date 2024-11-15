@@ -181,11 +181,21 @@ body {
     background-position: center top;
 }
 
-.cards__1 a, .cards__2 a {
-    align-self: flex-end;
-    margin: 0 0 10px 16px;
+.cards__auto__cards {
+    margin-left: 13px;
+    align-self: center;
     padding: 10px;
     color: white;
+}
+
+.cards__auto__cards h3 {
+    font-size: 23px;
+    letter-spacing: 1px;
+}
+
+.cards__auto__cards a {
+    color: white;
+    padding: 11px;
     border: 1px solid white;
     text-decoration: none;
 }
