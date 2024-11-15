@@ -23,19 +23,18 @@ body {
 .head__nav ul{
     display: flex;
     align-items: center;
-    gap: 30px;
+    gap: 20px;
     list-style-type: none;
 }
 
 .head__nav a {
-   
     color: #2f4f4f;
     text-decoration: none;
     text-transform: uppercase;
     font-family: 'Arial Black';
     font-size: 10px;
     letter-spacing: 1px;
-    padding: 5px;
+    padding: 10px;
 }
 
 .head__nav img {
@@ -55,10 +54,12 @@ body {
 }
 
 .head__menu-2 a {
-    padding: 7px;
-    height: 25px;
+    padding: 7px 25px;
     letter-spacing: 2px;
-
+    border-radius: 7px;
+    color: white;
+    text-decoration: none;
+    background-color: #dc143c;
 }
 
 /* Largura das imagens */
@@ -74,5 +75,7 @@ body {
 }
 
 .head__lua {
-    padding: 25px;
+    width: 20px;
+    background-color: yellow;
+    margin-left: 10px;
 }
