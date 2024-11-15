@@ -169,13 +169,13 @@ body {
 }
 
 .cards__1 {
-    background-image: url(image/card111.png); 
+    background-image: url(image/card1.png); 
     background-repeat: no-repeat;
     background-position: center top;   
 }
 
 .cards__2 {
-    background-image: url(image/card222.png); 
+    background-image: url(image/card2.png); 
     background-repeat: no-repeat; 
     background-color: rgba(0, 0, 0, 0.4); 
     background-position: center top;
