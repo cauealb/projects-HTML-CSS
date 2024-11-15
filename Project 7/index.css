@@ -100,24 +100,29 @@ body {
 }
 
 .sub-header__info h3 {
+    margin-bottom: 3px;
     color: #dc143c;
 }
 
 .sub-header__info h1 {
+    margin: 3px auto auto auto;
     color: white;
     font-size: 55px;
 }
 
 .sub-header__info p {
+    margin: 1px auto 40px;
     color: white;
 }
 
 .sub-header__info__cta {
+    margin-top: 60px;
     padding: 16px;
     background-color: #dc143c;
     color: white;
     border-radius: 6px;
     text-decoration: none;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.4);
 }
 
 .sub-header__info__cta:hover {
