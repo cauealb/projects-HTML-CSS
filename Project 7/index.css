@@ -237,11 +237,24 @@ body {
     color: white;
 }
 .footer-principal h2 {
-    margin-left: 100px;
+    margin-left: 137px;
 }
 
 .lists {
     margin-left: 100px;
     display: flex;
     gap: 100px;
+}
+
+.lists li {
+    list-style: none;
+}
+
+.lists h3 {
+    margin-left: 38px;
+}
+
+.lists a {
+    color: rgb(231, 231, 231, 0.5) ;
+    line-height: 27px;
 }
