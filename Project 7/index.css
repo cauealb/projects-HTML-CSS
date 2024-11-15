@@ -255,6 +255,16 @@ body {
 }
 
 .lists a {
+    letter-spacing: 1px;
     color: rgb(231, 231, 231, 0.5) ;
     line-height: 27px;
+    text-decoration: none;
+}
+
+.lists a:hover {
+    text-decoration: underline;
+}
+
+.footer-principal p {
+    margin: 25px auto 30px 137px 
 }
