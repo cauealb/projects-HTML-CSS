@@ -199,9 +199,19 @@ body {
     background-color: rgba(238, 238, 238, 0.6);
 }
 
-.sub-cards__img {
+.sub-cards__group {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 25px;
+}
+
+.sub-cards__group h2 {
+    position: relative;
+    right: 420px;    
+}
+
+.sub-cards__img {
+    display: flex;
+    gap: 20px;
 }
