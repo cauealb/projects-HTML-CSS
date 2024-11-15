@@ -163,16 +163,28 @@ body {
 }
 
 .auto {
-    width: 30%;
+    display: flex;
+    width: 27%;
     height: 200px;
 }
 
 .cards__1 {
-    background-image: url(image/card11.jpg); 
-    background-repeat: no-repeat;   
+    background-image: url(image/card111.png); 
+    background-repeat: no-repeat;
+    background-position: center top;   
+}
+
+.cards__1 p, .cards__2 p {
+    align-self: flex-end;
+    margin: 0 0 10px 16px;
+    padding: 10px;
+    color: white;
+    border: 1px solid white;
 }
 
 .cards__2 {
-    background-image: url(image/card22.jpg); 
-    background-repeat: no-repeat;   
+    background-image: url(image/card222.png); 
+    background-repeat: no-repeat; 
+    background-color: rgba(0, 0, 0, 0.4); 
+    background-position: center top;
 }
