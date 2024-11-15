@@ -174,17 +174,23 @@ body {
     background-position: center top;   
 }
 
-.cards__1 p, .cards__2 p {
-    align-self: flex-end;
-    margin: 0 0 10px 16px;
-    padding: 10px;
-    color: white;
-    border: 1px solid white;
-}
-
 .cards__2 {
     background-image: url(image/card222.png); 
     background-repeat: no-repeat; 
     background-color: rgba(0, 0, 0, 0.4); 
     background-position: center top;
+}
+
+.cards__1 a, .cards__2 a {
+    align-self: flex-end;
+    margin: 0 0 10px 16px;
+    padding: 10px;
+    color: white;
+    border: 1px solid white;
+    text-decoration: none;
+}
+
+.cards__1 a:hover, .cards__2 a:hover {
+    background-color: white;
+    color: black;
 }
