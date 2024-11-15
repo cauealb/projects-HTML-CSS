@@ -63,6 +63,10 @@ body {
     background-color: #dc143c;
 }
 
+.head__menu-2 a:hover {
+    background-color: #dc4f6b;
+}
+
 /* Largura das imagens */
 .head__logo {
     width: 50px;
