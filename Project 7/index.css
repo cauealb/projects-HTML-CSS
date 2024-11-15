@@ -128,7 +128,7 @@ body {
 }
 
 .sub-header__info__cta:hover {
-    text-decoration: underline;
+    background-color: #dc4f6b;
 }
 
 .message_infos {
@@ -152,4 +152,27 @@ body {
     font-size: 20px;
     letter-spacing: 2px;
     margin: 0;
+}
+
+.cards {
+    height: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.auto {
+    width: 30%;
+    height: 200px;
+}
+
+.cards__1 {
+    background-image: url(image/card11.jpg); 
+    background-repeat: no-repeat;   
+}
+
+.cards__2 {
+    background-image: url(image/card22.jpg); 
+    background-repeat: no-repeat;   
 }
