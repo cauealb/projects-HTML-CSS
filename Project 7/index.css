@@ -194,3 +194,14 @@ body {
     background-color: white;
     color: black;
 }
+
+.sub-cards {
+    background-color: rgba(238, 238, 238, 0.6);
+}
+
+.sub-cards__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
