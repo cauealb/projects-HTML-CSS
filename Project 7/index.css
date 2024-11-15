@@ -132,11 +132,24 @@ body {
 }
 
 .message_infos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
     width: 100%;
     height: 100px;
     background-color: rgba(238, 238, 238, 0.6);
 }
 
+.message_infos img {
+    margin-left: 1px;
+    width: 30px;
+    height: 30px;
+}
+
 .message_infos p {
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 2px;
     margin: 0;
 }
