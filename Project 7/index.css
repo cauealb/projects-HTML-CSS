@@ -1,6 +1,7 @@
 body {
     padding: 0;
     margin: 0;
+    text-transform: capitalize;
 }
 
 /* Menu config */
@@ -41,8 +42,6 @@ body {
 .head__nav img {
     align-self: center;
 }
-
-
 
 .head__nav a:hover {
     color: 	#dc143c;
@@ -99,7 +98,6 @@ body {
 }
 
 .sub-header__info {
-    text-transform: capitalize;
     letter-spacing: 1px;
     text-align: center;
     font-size: 20px;
@@ -228,4 +226,22 @@ body {
 .sub-cards__img {
     display: flex;
     gap: 20px;
+}
+
+/* Footer */
+
+.footer-principal {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+}
+.footer-principal h2 {
+    margin-left: 100px;
+}
+
+.lists {
+    margin-left: 100px;
+    display: flex;
+    gap: 100px;
 }
