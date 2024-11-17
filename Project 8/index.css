@@ -113,3 +113,13 @@ body {
     text-transform: none;
     font-size: 1.2rem;
 }
+
+/* Footer Principal */
+
+.principal-footer {
+    background-image: url(image/bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right bottom;
+    min-height: 100vh;
+}
