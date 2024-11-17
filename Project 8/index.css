@@ -78,10 +78,12 @@ body {
 }
 
 .principal__infos {
-    width: 65%;
+    width: 72%;
+    max-width: 900px;
     justify-content: center;
-    padding: 5rem;
-    font-size: 2rem;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    font-size: 2.2rem;
     text-align: center;
     line-height: 2;
 }
@@ -89,4 +91,12 @@ body {
 .principal h2 {
     font-size: 4rem;
     font-family: "Italiana", sans-serif;
+}
+
+/* main cards */
+
+.principal__cards {
+    display: flex;
+    gap: 2.5rem;
+    text-align: center;
 }
