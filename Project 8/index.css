@@ -144,3 +144,13 @@ body {
     color: white;
     font-size: 2rem;
 }
+
+/* Footer de baixo */
+
+.ft {
+    background-color: #0b171f;
+    color: #6f8597;
+    padding: 1rem;
+    text-align: center;
+    letter-spacing: 3px;
+}
