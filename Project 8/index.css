@@ -81,7 +81,7 @@ body {
 
 .principal__infos {
     width: 72%;
-    max-width: 900px;
+    max-width: 850px;
     justify-content: center;
     padding: 2rem;
     margin-bottom: 4rem;
@@ -99,9 +99,10 @@ body {
 
 .principal__cards {
     display: flex;
-    gap: 2.5rem;
+    gap: 2.7rem;
     text-align: center;
     text-transform: uppercase;
+    margin-bottom: 4em;
 }
 
 .principal__cards h3 {
