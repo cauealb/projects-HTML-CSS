@@ -117,9 +117,29 @@ body {
 /* Footer Principal */
 
 .principal-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-image: url(image/bg_detalhe.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right bottom;
-    min-height: 100vh;
+    min-height: 85vh;
+}
+
+.principal-footer__infos {
+    max-width: 80%;
+}
+
+.principal-footer__infos h1 {
+    color: white;
+    font-family: "Viaoda Libre", serif;
+    text-transform: uppercase;
+    font-size: 5.5rem;
+}
+
+.principal-footer__infos p {
+    width: 40pc;
+    color: white;
+    font-size: 2rem;
 }
