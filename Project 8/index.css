@@ -59,6 +59,12 @@ body {
     text-transform: capitalize;
     font-family: "Viaoda Libre", serif;
     color: white;
-    margin-left: 15rem;
+    margin-left: 20rem;
     font-size: 4rem;
+}
+
+/* imagem principal config */
+
+.principal-img img {
+    width: 100%;
 }
