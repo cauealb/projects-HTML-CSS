@@ -51,5 +51,19 @@ body {
 }
 
 .face__info {
+    font-size: 5rem;
     align-self: center;
+}
+
+.face__info h1 {
+    width: 32pc;
+}
+
+.face__info a {
+    font-size: 2.2rem;
+    color: black;
+    text-decoration: none;
+    padding: 1rem 4rem;
+    background-color: var(--color-all-fonts);
+    border-radius: 10px;
 }
