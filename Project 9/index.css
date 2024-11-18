@@ -3,7 +3,8 @@ html {
 }
 
 :root {
-    --color-hf: rgb(43, 43, 43)
+    --color-hf: rgb(43, 43, 43);
+    --color-all-fonts: rgb(255, 221, 0)
 }
 
 body {
@@ -30,13 +31,14 @@ body {
 .menu ul {
     display: flex;
     gap: 3rem;
-    margin-right: 10rem;
+    margin-right: 15rem;
 }
 
 .menu a {
-    color: yellow;
+    color: var(--color-all-fonts);
     text-decoration: none;
     font-size: 2rem;
     letter-spacing: 1px;
-    
+    border: 1px solid var(--color-all-fonts);
+    padding: 1.6rem;
 }
