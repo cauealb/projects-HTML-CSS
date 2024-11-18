@@ -1,0 +1,42 @@
+html {
+    font-size: 62.5%;
+}
+
+:root {
+    --color-hf: rgb(43, 43, 43)
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Menu */
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color-hf);
+    width: 100%;
+    min-height: 15vh;
+}
+
+.menu img {
+    padding: 1.2rem;
+    margin: 1.6rem 0 1.6rem 10rem;
+}
+
+.menu ul {
+    display: flex;
+    gap: 3rem;
+    margin-right: 10rem;
+}
+
+.menu a {
+    color: yellow;
+    text-decoration: none;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    
+}
