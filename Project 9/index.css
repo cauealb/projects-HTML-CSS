@@ -42,3 +42,14 @@ body {
     border: 1px solid var(--color-all-fonts);
     padding: 1.6rem;
 }
+
+.face {
+    display: flex;    
+    justify-content: space-around;
+    background-color: rgba(255, 255, 0, 0.252);
+    height: 39vw;
+}
+
+.face__info {
+    align-self: center;
+}
