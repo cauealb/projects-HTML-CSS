@@ -41,7 +41,15 @@ body {
     letter-spacing: 1px;
     border: 1px solid var(--color-all-fonts);
     padding: 1.6rem;
+    transition: all .5s ease-in-out 0.1s;
 }
+
+.menu a:hover {
+    background-color: rgba(255, 221, 0, 0.9);
+    color: white;
+}
+
+/* Face principal */
 
 .face {
     display: flex;    
@@ -66,4 +74,5 @@ body {
     padding: 1rem 4rem;
     background-color: var(--color-all-fonts);
     border-radius: 10px;
+    margin-bottom: 40px;
 }
