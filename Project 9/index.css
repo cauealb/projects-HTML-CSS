@@ -81,3 +81,27 @@ body {
 .face__info__span {
     text-transform: uppercase;
 }
+
+/* Main */
+.principal-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5rem 0 5rem 0;
+}
+
+.principal-cards h2 {
+    font-size: 4.5rem;
+}
+
+.cards {
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards__main {
+    border: 1px solid #eee;
+}
