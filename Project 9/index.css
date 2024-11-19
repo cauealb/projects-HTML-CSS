@@ -100,8 +100,13 @@ body {
     gap: 3rem;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    background-color: yellowgreen;
 }
 
 .cards__main {
+    width: 40.3em;
+    border-radius: 10px;
+    height: 50vh;
     border: 1px solid #eee;
 }
