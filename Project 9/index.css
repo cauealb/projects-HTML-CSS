@@ -65,6 +65,7 @@ body {
 
 .face__info h1 {
     width: 32pc;
+    margin-bottom: 10px;
 }
 
 .face__info a {
@@ -75,4 +76,8 @@ body {
     background-color: var(--color-all-fonts);
     border-radius: 10px;
     margin-bottom: 40px;
+}
+
+.face__info__span {
+    text-transform: uppercase;
 }
