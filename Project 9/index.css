@@ -151,6 +151,17 @@ body {
     color: #9d9d9d;
 }
 
+.principal-cards a {
+    text-decoration: none;
+    color: var(--color-hf);
+    letter-spacing: 1px;
+    padding: 0.7em 2em;
+    background-color: var(--color-all-fonts);
+    border-radius: 5px;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
 /* Infos Footer */
 
 .infos__footer {
