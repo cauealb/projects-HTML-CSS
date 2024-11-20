@@ -119,7 +119,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #191970;
+    background-color: #16417C;
     padding-top: 4rem;
 }
 
@@ -132,6 +132,7 @@ body {
 }
 
 .infos__footer__forme h3 {
+    font-size: 3rem;
     margin-bottom: 60px;
 }
 
@@ -175,3 +176,5 @@ body {
     color: white;
     font-family: sans-serif;
 }
+
+/* FAZER em PADING DE BOTÕES... */
