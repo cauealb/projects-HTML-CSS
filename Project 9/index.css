@@ -95,6 +95,7 @@ body {
 }
 
 /* Main */
+
 .principal-cards {
     display: flex;
     flex-direction: column;
@@ -118,11 +119,20 @@ body {
 }
 
 .cards__main {
-    width: 40.3em;
-    border-radius: 10px;
+    width: fit-content;
+    border-radius: 12px;
     height: 50vh;
     border: 1px solid #eee;
     background-color: white;
+}
+
+.cards__main img {
+    width: 80%;
+}
+
+.cards__main p {
+    width: 20pc;
+    font-size: 1.4rem;
 }
 
 /* Infos Footer */
