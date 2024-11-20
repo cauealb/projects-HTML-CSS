@@ -1,5 +1,6 @@
 html {
     font-size: 62.5%;
+    font-family: sans-serif;
 }
 
 :root {
@@ -37,10 +38,11 @@ body {
 .menu a {
     color: var(--color-all-fonts);
     text-decoration: none;
-    font-size: 2rem;
-    letter-spacing: 1px;
+    font-size: 1.6rem;
     border: 1px solid var(--color-all-fonts);
     padding: 1.6rem;
+    font-weight: bold;
+    text-transform: uppercase;
     transition: all .5s ease-in-out 0.1s;
 }
 
