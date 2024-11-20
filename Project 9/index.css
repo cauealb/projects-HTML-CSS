@@ -100,6 +100,7 @@ body {
 .principal-cards {
     display: flex;
     flex-direction: column;
+    gap: 20px;
     align-items: center;
     justify-content: center;
     padding: 2rem 0 5rem 0;
@@ -120,10 +121,15 @@ body {
 
 .cards__main {
     width: 23%;
-    border-radius: 8px;
+    border-radius: 10px;
     height: 55vh;
-    border: 1px solid #eee;
+    border: 1px solid var(--bc);
     background-color: white;
+    transition: all 0.5s ease-out 0.1s;
+}
+
+.cards__main:hover {
+    box-shadow: 0 3px 10px #8f8f8f;
 }
 
 .cards__main img {
@@ -135,6 +141,7 @@ body {
 }
 
 .cards__infos h3 {
+    letter-spacing: 1px;
     font-size: 1.8em;
 }
 
