@@ -103,7 +103,7 @@ body {
     align-items: center;
     justify-content: center;
     padding: 2rem 0 5rem 0;
-    background-color: #ccc;
+    background-color: var(--bc);
 }
 
 .principal-cards h2 {
@@ -116,28 +116,32 @@ body {
     justify-content: center;
     align-items: center;
     width: 100%;
-    background-color: yellowgreen;
 }
 
 .cards__main {
-    /* width: fit-content; */
-    border-radius: 12px;
-    height: 50vh;
+    width: 23%;
+    border-radius: 8px;
+    height: 55vh;
     border: 1px solid #eee;
     background-color: white;
 }
 
 .cards__main img {
-    width: 80%;
+    width: 100%;
+}   
+
+.cards__infos {
+    padding: 5%;
 }
 
-.cards__main h3 {
-    width: fit-content;
+.cards__infos h3 {
+    font-size: 1.8em;
 }
 
-.cards__main p {
+.cards__infos p {
     width: 20pc;
-    font-size: 1.4rem;
+    font-size: 1.5em;
+    color: #9d9d9d;
 }
 
 /* Infos Footer */
