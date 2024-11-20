@@ -20,8 +20,10 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: var(--color-hf);
+    position: fixed;
+    top: 0;
     width: 100%;
-    min-height: 15vh;
+    height: 15vh;
 }
 
 .menu img {
@@ -57,7 +59,8 @@ body {
     display: flex;    
     justify-content: space-around;
     background-color: rgba(255, 255, 0, 0.252);
-    height: 39vw;
+    /* height: 39vw; */
+    margin-top: calc(15vh)   ;
 }
 
 .face__info {
