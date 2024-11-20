@@ -135,6 +135,12 @@ body {
     margin-bottom: 60px;
 }
 
+.infos__footer__forme p {
+    width: 35pc;
+    line-height: 25px;
+    font-size: 1.8rem
+}
+
 /* Maps */
 
 .maps {
