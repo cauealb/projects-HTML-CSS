@@ -5,7 +5,8 @@ html {
 
 :root {
     --color-hf: rgb(43, 43, 43);
-    --color-all-fonts: rgb(255, 221, 0)
+    --color-all-fonts: rgb(255, 221, 0);
+    --bc: #eee
 }
 
 body {
@@ -119,7 +120,7 @@ body {
 }
 
 .cards__main {
-    width: fit-content;
+    /* width: fit-content; */
     border-radius: 12px;
     height: 50vh;
     border: 1px solid #eee;
@@ -128,6 +129,10 @@ body {
 
 .cards__main img {
     width: 80%;
+}
+
+.cards__main h3 {
+    width: fit-content;
 }
 
 .cards__main p {
@@ -167,7 +172,7 @@ body {
 /* Maps */
 
 .maps {
-    background-color: #eee;
+    background-color: var(--bc);
     display: flex;
     flex-direction: column;
     gap: 1.6rem;
