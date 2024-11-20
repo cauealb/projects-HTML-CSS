@@ -117,16 +117,19 @@ body {
 
 .maps {
     background-color: #eee;
-    width: fit-content;
-    margin: auto;
     display: flex;
     flex-direction: column;
+    gap: 30px;
     align-items: center;
     justify-content: center;
+    padding-bottom: 30px;
 }
 
 .maps p {
+    margin-right: 12rem;
     align-self: flex-end;
+    font-size: 1.8rem;
+    line-height: 0;
 }
 
 /* Footer */
