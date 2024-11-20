@@ -120,10 +120,13 @@ body {
     justify-content: space-around;
     align-items: center;
     background-color: #191970;
+    padding-top: 4rem;
 }
 
 .infos__footer__forme {
-    color: #ffffff;
+    font-family: sans-serif;
+    margin-bottom: 70px;
+    color: #f2f2f2;
     font-size: 2.4rem;
     width: 45%;
 }
