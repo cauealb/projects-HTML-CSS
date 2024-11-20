@@ -72,6 +72,7 @@ body {
     width: 37pc;
     margin-bottom: 10px;
     color: var(--color-hf);
+    line-height: 1.2;
 }
 
 .face__info a {
