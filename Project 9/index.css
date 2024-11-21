@@ -169,7 +169,7 @@ body {
 
 /* Infos Footer */
 
-.infos__footer {
+#infos__footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
