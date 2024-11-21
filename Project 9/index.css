@@ -232,4 +232,6 @@ body {
     font-family: sans-serif;
 }
 
-/* FAZER em PADING DE BOTÕES... */
+.wapperMenu {
+    margin: auto;
+}
