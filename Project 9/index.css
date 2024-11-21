@@ -121,7 +121,7 @@ body {
 .cards__main {
     width: 23%;
     border-radius: 10px;
-    height: 55vh;
+    /* height: 55vh; */
     border: 1px solid var(--bc);
     background-color: white;
     transition: all 0.5s ease-out 0.1s;
@@ -145,8 +145,8 @@ body {
 }
 
 .cards__infos p {
-    width: 20pc;
-    font-size: 1.5em;
+    width: 18pc;
+    font-size: 1.5rem;
     color: #9d9d9d;
 }
 
