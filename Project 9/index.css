@@ -96,7 +96,7 @@ body {
 
 /* Main */
 
-.principal-cards {
+#cursos {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -106,7 +106,7 @@ body {
     background-color: var(--bc);
 }
 
-.principal-cards h2 {
+#cursos h2 {
     font-size: 4.5rem;
 }
 
@@ -150,7 +150,7 @@ body {
     color: #9d9d9d;
 }
 
-.principal-cards a {
+#cursos a {
     text-decoration: none;
     color: var(--color-hf);
     letter-spacing: 1px;
@@ -163,7 +163,7 @@ body {
     transition: all .7s ease-out;
 }
 
-.principal-cards a:hover {
+#cursos a:hover {
     box-shadow: 0 3px 10px #8f8f8f;
 }
 
