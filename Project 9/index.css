@@ -1,6 +1,5 @@
 html {
-    font-size: 62.5%;
-    font-family: sans-serif;
+    font: 400 62.5% sans-serif;
 }
 
 :root {
@@ -41,10 +40,9 @@ body {
 .menu a {
     color: var(--color-all-fonts);
     text-decoration: none;
-    font-size: 1.6rem;
+    font: bold 1.6rem sans-serif;
     border: 1px solid var(--color-all-fonts);
     padding: 0.8em 1.6em;
-    font-weight: bold;
     text-transform: uppercase;
     transition: all .5s ease-in-out 0.1s;
 }
@@ -178,10 +176,9 @@ body {
 }
 
 .infos__footer__forme {
-    font-family: sans-serif;
+    font: 400 2.4rem sans-serif;
     margin-bottom: 70px;
     color: #f2f2f2;
-    font-size: 2.4rem;
     width: 45%;
 }
 
@@ -209,8 +206,7 @@ body {
 }
 
 #maps h3 {
-    font-size: 2.8rem;
-    font-family: sans-serif;
+    font: bold 2.8rem sans-serif;
     margin-top: 3.5rem;
 }
 
@@ -225,10 +221,9 @@ body {
 .ft {
     padding: 1.6rem;
     text-align: center;
-    font-size: 1.2rem;
+    font: 400 1.2rem sans-serif;
     background-color: var(--color-hf);
     color: white;
-    font-family: sans-serif;
 }
 
 .wapperMenu {
