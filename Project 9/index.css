@@ -200,14 +200,19 @@ body {
 
 /* Maps */
 
+.wapperMaps {
+    background-color: var(--bc)
+}
+
 #maps {
-    background-color: var(--bc);
+    margin: auto;
     display: flex;
     flex-direction: column;
     gap: 1.6rem;
     align-items: center;
     justify-content: center;
     padding-bottom: 30px;
+    width: 84%;
 }
 
 #maps h3 {
@@ -216,7 +221,7 @@ body {
 }
 
 .maps__infos {
-    margin-right: 12rem;
+    /* margin-right: 12rem; */
     align-self: flex-end;
     font-size: 1.8rem;
     text-align: end;
@@ -229,8 +234,4 @@ body {
     font: 400 1.2rem sans-serif;
     background-color: var(--color-hf);
     color: white;
-}
-
-.wapperMenu {
-    margin: auto;
 }
