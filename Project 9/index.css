@@ -58,7 +58,7 @@ body {
 .face {
     display: flex;    
     justify-content: space-around;
-    background-color: rgba(255, 255, 0, 0.252);
+    background-image: linear-gradient(white, yellow);
     margin-top: calc(15vh);
 }
 
