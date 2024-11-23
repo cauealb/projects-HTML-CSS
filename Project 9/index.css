@@ -120,7 +120,7 @@ body {
 .cards__main {
     flex: 1;
     border-radius: 10px;
-    border: 1px solid var(--bc);
+    /* border: 1px solid var(--bc); */
     background-color: white;
     transition: all 0.5s ease-out 0.1s;
 }
@@ -135,6 +135,9 @@ body {
 
 .cards__infos {
     padding: 5%;
+    border: 1px solid #dcdcdc;
+    border-radius: 0 0 10px 10px;
+    border-top: transparent;
 }
 
 .cards__infos h3 {
@@ -144,7 +147,7 @@ body {
 
 .cards__infos p {
     width: 18pc;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     line-height: 1.5;
     color: #9d9d9d;
 }
