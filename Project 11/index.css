@@ -8,6 +8,7 @@ body {
     box-sizing: border-box;
     min-height: 100vh;
     background-color: #383838;
+    font-size: 62.5%;
 
     display: flex;
     justify-content: center;
@@ -34,7 +35,8 @@ legend {
 }
 
 label {
-    margin-top: 20px;
+    font-size: 1rem;
+    margin: 20px 0 2px;
 }
 
 input {
@@ -44,4 +46,5 @@ input {
     padding: 5px;
     background-color: var(--bc);
     color: white;
+    font-size: .9rem;
 }
