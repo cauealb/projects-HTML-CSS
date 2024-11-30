@@ -1,3 +1,7 @@
+:root {
+    --bc: rgba(27, 27, 27, 0.5); 
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -12,7 +16,7 @@ body {
 }
 
 form {
-    background-color: rgba(27, 27, 27, 0.5);
+    background-color: var(--bc);
     width: 30%;
 }
 
@@ -26,5 +30,18 @@ legend {
     color: #ccc;
     text-align: center;
     font: bold 25px sans-serif;
-    padding: 20px 0;
+    padding-top: 20px;
+}
+
+label {
+    margin-top: 20px;
+}
+
+input {
+    height: 20px;
+    border: none;
+    border-bottom: 1px solid white;
+    padding: 5px;
+    background-color: var(--bc);
+    color: white;
 }
