@@ -5,6 +5,23 @@
     <title>Forms</title>
 </head>
 <body>
-    
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Formulário de Contato</legend>
+
+            <label for="name">Seu nome:</label>
+            <input type="text" id="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" readonly>
+
+            <label for="info">Assunto:</label>
+            <input type="text" id="info">
+
+            <label for="message">Menssagem:</label>
+            <textarea name="message" id="message" minlength="20"></textarea>
+
+        </fieldset>
+    </form>
 </body>
 </html>
