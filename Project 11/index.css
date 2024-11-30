@@ -36,11 +36,15 @@ legend {
 
 label {
     font-size: 1rem;
-    margin: 20px 0 2px;
+    margin: 20px 3px 2px;
 }
 
 input {
     height: 20px;
+}
+
+textarea {
+    resize: none;
 }
 
 .textinput {
@@ -51,8 +55,5 @@ input {
     color: white;
     font-size: .9rem;
     font: normal .9rem Courier;
-}
-
-textarea {
-    resize: none;
+    margin: 0 3px;
 }
