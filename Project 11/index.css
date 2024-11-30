@@ -25,6 +25,7 @@ fieldset {
     border: none;
     display: flex;
     flex-direction: column;
+    margin: 0 5px;
 }
 
 legend {
@@ -36,11 +37,7 @@ legend {
 
 label {
     font-size: 1rem;
-    margin: 20px 3px 2px;
-}
-
-input {
-    height: 20px;
+    margin: 20px 0 2px;
 }
 
 textarea {
@@ -48,6 +45,7 @@ textarea {
 }
 
 .textinput {
+    height: 20px;
     padding: 5px;
     background-color: var(--bc);
     border: none;
@@ -55,5 +53,14 @@ textarea {
     color: white;
     font-size: .9rem;
     font: normal .9rem Courier;
-    margin: 0 3px;
+}
+
+.btn {
+    width: fit-content;
+    align-self: flex-end;
+    margin: 15px 0;
+    padding: 20px 15px;
+    background-color: var(--bc);
+    color: white;
+    border: none;
 }
