@@ -44,8 +44,11 @@ textarea {
     resize: none;
 }
 
-.textinput {
+input.textinput {
     height: 20px;
+}
+
+.textinput {
     padding: 5px;
     background-color: var(--bc);
     border: none;
