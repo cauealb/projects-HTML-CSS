@@ -47,4 +47,15 @@ input {
     background-color: var(--bc);
     color: white;
     font-size: .9rem;
+    font: normal .9rem Courier;
+}
+
+textarea {
+    resize: none;
+    background-color: var(--bc);
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    font-size: .9rem;
+    font: normal .9rem Courier;
 }
