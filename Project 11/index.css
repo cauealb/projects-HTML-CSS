@@ -3,14 +3,26 @@ body {
     padding: 0;
     box-sizing: border-box;
     min-height: 100vh;
+    background-color: #383838;
 
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+form {
+    background-color: rgba(27, 27, 27, 0.5);
+    width: 30%;
+}
+
 fieldset {
     border: none;
     display: flex;
     flex-direction: column;
+}
+
+legend {
+    text-align: center;
+    font: bold 25px sans-serif;
+    padding: 20px 0;
 }
