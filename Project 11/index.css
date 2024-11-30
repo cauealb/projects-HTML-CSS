@@ -8,6 +8,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
 }
 
 form {
@@ -22,6 +23,7 @@ fieldset {
 }
 
 legend {
+    color: #ccc;
     text-align: center;
     font: bold 25px sans-serif;
     padding: 20px 0;
