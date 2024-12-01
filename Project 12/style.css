@@ -3,7 +3,7 @@
 }
 
 html {
-    font-size: 62.5%;
+    font: normal 62.5% sans-serif;
 }
 
 body {
@@ -21,4 +21,19 @@ form {
     width: 90%;
     max-width: 550px;
     min-width: 400px;
+    padding: 1.6rem;
+}
+
+.title {
+    font-size: 4rem;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    color: var(--color);
+}
+
+.infos__txt {
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    margin: 20px 0 5px 0;
+    color: #8b8b8b;
 }
