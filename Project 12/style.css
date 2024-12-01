@@ -1,0 +1,24 @@
+:root {
+    --color: #3a68b7;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 90%;
+    max-width: 550px;
+    min-width: 400px;
+}
