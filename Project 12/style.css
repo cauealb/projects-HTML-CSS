@@ -84,3 +84,15 @@ form {
 .click p {
     font-size: 1.6rem;
 }
+
+/* Click (página de login) */
+
+.click-2 {
+    display: flex;
+    align-items: center;
+}
+
+.click-2 p {
+    margin-left: auto;
+}
+
