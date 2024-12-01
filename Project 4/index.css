@@ -82,7 +82,7 @@ main {
     padding: 10px;
     background-color: rgba(45, 45, 60, 0.3);
     border-radius: 7px;
-    height: 380px;
+    height: fit-content;
     box-shadow: 0 1px 15px -6px rgba(98, 98, 98, 0.9);
 }
 
@@ -117,7 +117,7 @@ span {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: rgba(238, 238, 238, 0.5);
     font-size: 14px;
-    margin-top: 2px;
+    flex: 1;
     flex: 1;
 }
 
@@ -132,5 +132,11 @@ span {
 }
 
 .main-cards a:hover {
-    background-color: rgb(144, 185, 61);
+    outline: 2px solid #cbe300;
+    background-color: transparent;
+    color: #cbe300;
+}
+
+.main-cards li::marker {
+    color: #cbe300;
 }

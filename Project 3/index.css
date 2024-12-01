@@ -4,7 +4,7 @@ html, body {
 
 body {
     margin: 0;
-    padding: 0;
+    padding: 36px;
     background-color: aqua;
 
     display: flex;
