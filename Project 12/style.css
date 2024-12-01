@@ -69,7 +69,7 @@ form {
     align-items: center;
 }
 
-.click button {
+.button-principal{
     border-radius: 4px;
     background-color: var(--color);
     color: white;
@@ -81,18 +81,8 @@ form {
     cursor: pointer;
 }
 
-.click p {
-    font-size: 1.6rem;
-}
-
-/* Click (página de login) */
-
-.click-2 {
-    display: flex;
-    align-items: center;
-}
-
-.click-2 p {
+.act {
     margin-left: auto;
+    font-size: 1.6rem;
 }
 
