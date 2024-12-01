@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 :root {
     --color: #3a68b7;
 }
@@ -5,7 +7,7 @@
 /* Geral */
 
 html {
-    font: normal 62.5% sans-serif;
+    font: 300 62.5% "Roboto";
 }
 
 body {
@@ -29,7 +31,7 @@ form {
 /* Label's */
 
 .title {
-    font-size: 4rem;
+    font: 300 4rem "Roboto";
     letter-spacing: 1px;
     margin-top: 30px;
     color: var(--color);
