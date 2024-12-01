@@ -71,3 +71,7 @@ form {
     font: bold 2rem sans-serif;
     text-transform: uppercase;  
 }
+
+.click p {
+    font-size: 1.6rem;
+}
