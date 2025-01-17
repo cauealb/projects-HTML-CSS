@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    font-size: 30px;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.50rem;
+    flex-wrap: wrap;
+    width: 45%;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+p {
+    background-color: rgba(0, 0, 0, .8);
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 45px;
+    display: none;
+}
+
+.gallery > a:hover {
+    & > p {
+        display: block;
+    }
+}
