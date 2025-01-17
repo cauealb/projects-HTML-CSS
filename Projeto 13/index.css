@@ -1,0 +1,23 @@
+html {
+    min-height: 100vh;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+}
+
+div div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 55%;
+    background-color: white;
+    padding: 0.70rem 0;
+    gap: 5px;
+}
+
