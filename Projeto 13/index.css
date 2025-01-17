@@ -25,11 +25,18 @@ p {
     text-decoration: none;
     padding: 20px;
     font-size: 45px;
+    position: absolute;
+    text-align: center;
+    width: 460px;
+    transition: all 0.2s linear;
     display: none;
 }
 
 .gallery > a:hover {
     & > p {
         display: block;
+        transform: translateY(-150px);
+        transition: all 0.2s linear;
+        z-index: 1;
     }
 }
