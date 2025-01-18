@@ -5,6 +5,7 @@ body {
     align-items: center;
     background-color: gray;
     font-size: 30px;
+    min-height: 100vh;
 }
 
 section {
@@ -19,6 +20,10 @@ section {
     border-radius: 8px;
 }
 
+.gallery {
+    position: relative;
+}
+
 p {
     background-color: rgba(0, 0, 0, .8);
     color: white;
@@ -26,17 +31,21 @@ p {
     padding: 20px;
     font-size: 45px;
     position: absolute;
+    bottom: 0;
     text-align: center;
     width: 460px;
     transition: all 0.2s linear;
-    display: none;
+}
+/* 
+.gallery {
+    transform: scale(30px);
 }
 
 .gallery > a:hover {
     & > p {
         display: block;
         transform: translateY(-150px);
-        transition: all 0.2s linear;
+        transition: translate 0.2s linear;
         z-index: 1;
     }
-}
+} */
