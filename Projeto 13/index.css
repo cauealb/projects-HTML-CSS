@@ -23,12 +23,12 @@ section {
 
 .gallery {
     position: relative;
+    overflow: hidden;
 }
 
 p {
     background-color: rgba(0, 0, 0, .8);
     color: white;
-    text-decoration: none;
     padding: 20px;
     box-sizing: border-box;
     font-size: 45px;
@@ -36,5 +36,19 @@ p {
     bottom: 0;
     letter-spacing: 2px;
     width: 100%;
-    transition: all 0.2s linear;
+    transform: translateY(150%);
+    transition: all 0.3s linear;
+}
+
+.gallery:hover p {
+    transform: translateY(35%);
+}
+
+
+.gallery::after {
+    content: '';
+    position: absolute;
+    background-color: white;
+    inset: 0;
+    opacity: 0.3;
 }
