@@ -22,6 +22,7 @@
 .opt {
     display: flex;
     flex-direction: column;
+    margin-top: 0.80rem;
 }
 
 .opt a {
@@ -39,6 +40,14 @@
     }
 }
 
+img {
+    margin: 4rem 0 0 4rem;
+}
+
 .opt > li:last-child a {
     border-bottom: 1px solid gray;
+}
+
+.opt > li:first-child a {
+    border-top: 1px solid transparent;
 }
