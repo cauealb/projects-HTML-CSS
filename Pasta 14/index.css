@@ -22,14 +22,23 @@
 .opt {
     display: flex;
     flex-direction: column;
-    gap: 0.75rem;
 }
 
 .opt a {
     color: white;
-    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
     text-align: right;
     text-decoration: none;
     width: 100%;
-    background-color: aqua;
+    padding: 0.50rem 0 0.50rem 2rem;
+    display: block;
+    transition: background-color 0.1s linear;
+
+    &:hover {
+        background-color: #444856;
+    }
+}
+
+.opt > li:last-child a {
+    border-bottom: 1px solid gray;
 }
