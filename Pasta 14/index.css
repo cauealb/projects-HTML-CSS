@@ -1,13 +1,23 @@
+:root {
+    --bc-aside: #31333B;
+    --bc: #444856;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Inter", serif;
+}
+
+body {
+    background-color: var(--bc);
 }
 
 .sidebar {
     display: flex;
     flex-direction: column;
-    background-color: #31333B;
+    background-color: var(--bc-aside);
     position: absolute;
     bottom: 0;
     top: 0;
@@ -22,21 +32,24 @@
 .opt {
     display: flex;
     flex-direction: column;
+    gap: 0.40rem;
     margin-top: 0.80rem;
 }
 
 .opt > li {
     list-style-type: none;
     border-top: 1px solid gray;
-    transition: background-color 0.1s linear;
+    transition: all 0.1s linear;
+    background-color: transparent;
 
     &:hover {
-        background-color: #444856;
+        background-color: var(--bc);
+        padding-right: 0.20rem;
     }
 }
 
 .opt a {
-    color: white;
+    color: #F0F0F0;
     text-align: right;
     text-decoration: none;
     width: 100%;
@@ -53,5 +66,6 @@ img {
 }
 
 .opt > li:first-child {
+    font-weight: bold;
     border-top: 1px solid transparent;
 }
