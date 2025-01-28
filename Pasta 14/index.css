@@ -1,6 +1,8 @@
 :root {
     --bc-aside: #31333B;
     --bc: #444856;
+    --color: #FF7833;
+    --color-p: #F0F0F0;
 }
 
 * {
@@ -50,7 +52,7 @@ body {
 }
 
 .opt a {
-    color: #F0F0F0;
+    color: var(--color-p);
     text-align: right;
     text-decoration: none;
     width: 100%;
@@ -69,4 +71,18 @@ img {
 .opt > li:first-child {
     font-weight: bold;
     border-top: 1px solid transparent;
+}
+
+/* Hero */
+
+.hero {
+    margin: 7rem 0 0 calc(20% - 5rem);
+}
+
+.hero h1, h2, h3 {
+    color: var(--color);
+}
+
+.hero p {
+    color: var(--color-p);
 }
