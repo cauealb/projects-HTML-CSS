@@ -84,7 +84,7 @@ img {
     color: var(--color-p);
     font-size: 2rem;
     letter-spacing: 1px;
-    margin: 5rem 0 1rem calc(20% - 5rem);
+    margin: 5rem 0 0 calc(20% - 5rem);
 }
 
 .hero__infos {
