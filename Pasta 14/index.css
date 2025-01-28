@@ -88,7 +88,18 @@ img {
     color: var(--color-p);
     font-size: 2rem;
     letter-spacing: 1px;
-    margin-bottom: 1.4rem;
+    margin-bottom: 2rem;
+}
+
+.hero__infos {
+    font-size: 0.95rem;
+    line-height: 1.8;
+    margin-bottom: 0.70rem;
+}
+
+.hero__infos a {
+    color: var(--color);
+    text-transform: capitalize;
 }
 
 .hero p {
