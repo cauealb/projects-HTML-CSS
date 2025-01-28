@@ -76,15 +76,15 @@ img {
 /* Hero */
 
 .hero {
-    margin: 5rem 0 0 calc(20% - 5rem);
+    margin: 4rem 0 0 calc(20% - 5rem);
     line-height: 2;
 }
 
-.hero__principal {
+.principal {
     color: var(--color-p);
     font-size: 2rem;
     letter-spacing: 1px;
-    margin-bottom: 2rem;
+    margin: 5rem 0 1rem calc(20% - 5rem);
 }
 
 .hero__infos {
