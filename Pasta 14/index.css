@@ -80,10 +80,6 @@ img {
     line-height: 2;
 }
 
-.hero h2, h3 {
-    color: var(--color);
-}
-
 .hero__principal {
     color: var(--color-p);
     font-size: 2rem;
@@ -95,11 +91,17 @@ img {
     font-size: 0.95rem;
     line-height: 1.8;
     margin-bottom: 0.70rem;
+    color: var(--color);
 }
 
 .hero__infos a {
     color: var(--color);
     text-transform: capitalize;
+}
+
+.hero > h3:last-child {
+    color: var(--color);
+    margin-top: 2rem;
 }
 
 .hero p {
