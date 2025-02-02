@@ -1,0 +1,105 @@
+/* Normalize CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+/* ------------------------ */
+:root {
+    --primary-color: #FF7833;
+    --secondary-color: #31333B;
+    --secondary-color-light: #444856;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+
+body {
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #E7E7E7;
+    background-color: black;
+    line-height: 1.7;
+}
+
+.main, 
+.main-header {
+    font-size: 1.6rem;
+}
+
+
+.main-header {
+    background-color: var(--secondary-color);
+    width: 260px;
+    min-height: 100vh;
+    flex: 0 0 26rem;
+}
+
+.main {
+    background-color: var(--secondary-color-light);
+    flex: 1 0;
+    padding: 6.5rem 6rem 7.5rem;
+}
+
+h1 {
+    font-size: 4rem;
+    color: #c4c4c4;
+    margin-bottom: 1rem;
+}
+
+article {
+    padding: 1px;
+}
+
+article > p {
+    margin: 1rem 0;
+}
+
+h2 {
+    margin-top: 3rem;
+}
+
+h2, h3 {
+    color: var(--primary-color);
+}
+
+.perfil-img {
+    width: 10rem;
+    border-radius: 50%;
+}
+
+a {
+    color: inherit;
+}
+
+/* Header */
+
+.main-nav {
+    text-align: right;
+    padding: 6.2rem 2.4rem 2.4rem;
+}
+
+.main-nav ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.main-nav li {
+    border-bottom: 1px solid gray;
+    padding: 0.4rem 0;
+}
+
+.main-nav ul a {
+    display: block;
+    padding: 1.2rem 0;
+    text-decoration: none; 
+    transition: all 0.2s linear; 
+}
+
+.main-nav ul a:hover {
+    background-color: var(--secondary-color-light);
+    padding-right: 1rem;
+}
