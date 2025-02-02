@@ -11,6 +11,10 @@
     --secondary-color: #31333B;
 }
 
+html {
+    font-size: 62.5%;
+}
+
 
 body {
     display: flex;
@@ -23,10 +27,13 @@ body {
 .main-header {
     background-color: var(--secondary-color);
     width: 260px;
+    min-height: 100vh;
+    flex: 0 0 26rem;
 }
 
 .main {
     background-color: #444856;
+    flex: 1 0;
 }
 
 a {
