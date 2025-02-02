@@ -23,6 +23,11 @@ body {
     background-color: black;
 }
 
+.main, 
+.main-header {
+    font-size: 1.6rem;
+}
+
 
 .main-header {
     background-color: var(--secondary-color);
@@ -34,6 +39,10 @@ body {
 .main {
     background-color: #444856;
     flex: 1 0;
+}
+
+.perfil-img {
+    width: 10rem;
 }
 
 a {
