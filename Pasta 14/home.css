@@ -44,6 +44,28 @@ body {
     padding: 6.5rem 6rem 7.5rem;
 }
 
+h1 {
+    font-size: 4rem;
+    color: #c4c4c4;
+    margin-bottom: 1rem;
+}
+
+article {
+    padding: 1px;
+}
+
+article > p {
+    margin: 1rem 0;
+}
+
+h2 {
+    margin-top: 3rem;
+}
+
+h2, h3 {
+    color: var(--primary-color);
+}
+
 .perfil-img {
     width: 10rem;
     border-radius: 50%;
