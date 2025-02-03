@@ -58,6 +58,10 @@ article > p {
     margin: 1rem 0;
 }
 
+section {
+    padding: 2rem 0;
+}
+
 h2 {
     margin-top: 3rem;
 }
@@ -116,4 +120,32 @@ a {
 
 .card {
     max-width: 740px;
+    background-color: var(--secondary-color);
+    padding: 0;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.card__content {
+    padding: 0.35em 1em 1em;
+
+}
+
+.card__content p, .card__content {
+    margin: 0;
+}
+
+.card__title {
+    font-size: 1.6em;
+    margin-bottom: 0.50rem;
+}
+
+.card > img {
+    max-width: 100%;
+}
+
+.row {
+    display: flex;
+    gap: 1.4rem;
+    padding-top: 1rem;
 }
