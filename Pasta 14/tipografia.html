@@ -51,101 +51,19 @@
             <p>Cards são elementos usados para agrupar informações com imagens (opcional), título e descrição. Normalmente são links para outras páginas dentro da mesma aplicação ou site.</p>
         </article>
 
-        <section>
-            <h3>Elementos</h3>
+        <section>        
 
-            <article>
-                <h4>Textos</h4>
-                <p>Esses textos está em <b>negrito</b> e esse <strong>texto é forte.</strong></p>
-                <p>Esse texto está em <i>itálico</i> e esse texto está em <em>ênfase.</em></p>
-                <p>Esse texto está <u class="underline">sublinhado</u> e esse é um <a href="#"> link.</a></p>
-            </article>
+            <div class="row">
+                <article class="card">
+                    <img src="./img/fulls/full1.png" alt="Paisagem">
+                    <div class="card__content">
+                        <h3 class="cards__title">title</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores quia ab sapiente consectetur eligendi vel corrupti amet, aspernatur molestias praesentium.</p>
+                    </div>
+                </article>
+            </div>
 
-            <article>
-                <h4>Sobreescrito e sobscrito</h4>
-                <p>4<sup>2</sup> é igual a 16.</p>
-                <p>A segunda água mais usada no mundo é o H<sub>2</sub>O.</p>
-            </article>
 
-            <article>
-                <h4>Abreviações</h4>
-                <p>A linguagem utilizada para fazer sites na web é o <a href="#html">HTML</a>.</p>          
-                <p>O 
-                    <dfn id="html"> 
-                        <abbr title="HiperText Markup Language">HTML</abbr> 
-                    </dfn> 
-                    é uma linguagem de marcação para a web.
-                </p>
-            </article>
-
-            <article>
-                <h4>Citações</h4>
-                <blockquote cite="https://medium.com/leonardo-pacheco-fuita/a-vingan%C3%A7a-nunca-%C3%A9-plena-mata-a-alma-e-envenena-412192b3f0ef">
-                    <p>A vingança nunca é plena, mata a alma a e envenena.</p>
-                    <cite>Seu Madruga</cite>
-                </blockquote>
-
-                <p>
-                    <q>O ruim não é ter trabalho. O ruim é ter que trabalhar.</q>
-                    <cite>Seu Madruga</cite>
-                </p>
-
-                <blockquote cite="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/blockquote">
-                    <q>O Elemento HTML &lt;blockquote&gt; (ou Elemento HTML de citação de bloco) indica que o texto incluído é uma longa citação</q>
-                    <cite>MDN</cite>
-                </blockquote>
-            </article>
-
-            <article>
-                <h4>coisas de computador</h4>
-                <p>O Seletor <code>color</code>, é um função que bota no seu texto</p>
-
-                <p>Explicação de como funciona as variáveis do <code>Javascript</code></p>
-                <pre>
-                    <code>
-                        const num = 3
-                        let num2 = 10
-                        var num3 = 15
-                    </code>
-                </pre>
-
-                <p>Quando fizer um <code>push()</code> em um componente React obterá esse erro:</p>
-                <samp>
-                    error: the funtion 'push()' not used in React
-                </samp>
-
-                <p>Clicando com o <kbd>CTRL + C</kbd>, você copiará esse texto.</p>
-            </article>
-
-            <article>
-                <h4>Horários e datas</h4>
-                <p>O evento será marcado no dia 
-                    <time 
-                        datetime="2025-02-10"> 10 de Fevereiro de 2025
-                    </time>.
-                </p>
-                <p>O horário do envento será as 
-                    <time datetime="10:00:00-03:00">
-                        10H00
-                    </time>.
-                </p>
-                <p>O próximo evento depois desse será marcado no dia 
-                    <time datetime="2026-12-31T20:00:00-03:00"> 
-                        31 de Dezembro de 2026 as 20h00
-                    </time>.
-                </p>
-
-                <p>O evento do escopo <code>JS</code> será no dia 
-                    <time datetime="2024-02-02">
-                        <del datetime="2024-02-02">02 de Fevereiro de 2024</del>
-                    </time>
-                    <ins>
-                        <time datetime="2024-03-07T15:00:00-03:00">
-                            07 de Março de 2024 as 15h00
-                        </time>.
-                    </ins>
-                </p>
-            </article>
         </section>
     </main>
 
