@@ -99,7 +99,8 @@ a {
     transition: all 0.2s linear; 
 }
 
-.main-nav ul a:hover {
+.main-nav ul a:hover,
+.main-nav ul a:focus     {
     background-color: var(--secondary-color-light);
     padding-right: 1rem;
 }
