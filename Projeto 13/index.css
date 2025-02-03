@@ -44,6 +44,14 @@ p {
     transform: translateY(35%);
 }
 
+.gallery:hover::after {
+    opacity: 0;
+}
+
+.img:hover {
+    transform: scale(1.2);
+}
+
 
 .gallery::after {
     content: '';

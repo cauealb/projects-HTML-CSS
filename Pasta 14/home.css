@@ -113,3 +113,7 @@ a {
     padding-left: 2em;
     margin-bottom: 2.2em;
 }
+
+.card {
+    max-width: 740px;
+}
