@@ -51,7 +51,7 @@ h1 {
 }
 
 article {
-    padding: 1px;
+    padding: 1em 0;
 }
 
 article > p {
@@ -102,4 +102,13 @@ a {
 .main-nav ul a:hover {
     background-color: var(--secondary-color-light);
     padding-right: 1rem;
+}
+
+/* Tipografia */
+
+.hightlight {
+    border-left: 1px solid var(--primary-color);
+    font-size: 1.1em;
+    padding-left: 2em;
+    margin-bottom: 2.2em;
 }
