@@ -149,3 +149,9 @@ a {
     gap: 1.4rem;
     padding-top: 1rem;
 }
+
+code, kbd, samp {
+    background-color: #31333B;
+    padding: 0.50rem;
+    border-radius: 8px;
+}
