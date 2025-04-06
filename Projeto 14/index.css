@@ -10,6 +10,10 @@
     --text-color-secondary: #6C6C6C;
 }
 
+html {
+    font-size: 62.5%;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -25,7 +29,7 @@ body {
 
 .info {
     display: flex;
-    gap: 1rem;
+    gap: 1.6rem;
 }
 
 .info img:nth-child(2) {
@@ -37,14 +41,15 @@ body {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    gap: 1rem;
-    margin-right: 1rem;
+    gap: 1.6rem;
+    margin-right: 1.6rem;
 }
 
 .navbar a{
     color: var(--text-color-secondary);
     text-decoration: none;
     transition: color 0.2s linear;
+    font-size: 1.6rem;
 }
 
 .navbar a:hover {
@@ -57,18 +62,21 @@ body {
 }
 
 main {
-    padding: 0 2rem;
-    margin: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3.2rem;
+    margin: 3.2rem 0;
 }
 
 .profile  {
     display: flex;
-    gap: 2rem;
+    gap: 3.2rem;
 }
 
 .profile__infos h1 {
     margin: 0;
-
+    font-size: 3.2rem;
 }
 
 .profile img {
@@ -81,6 +89,22 @@ main {
 }
 
 .profile__infos p {
-    
-    width: 35%;
+    font-size: 1.6rem;
+    width: 43rem;
+    color: var(--text-color-secondary)
+}
+
+.profile__patent {
+    justify-self: start;
+    padding-right: 12rem;
+}
+
+.profile__patent__specificity {
+    display: flex;
+    gap: 1rem;
+}
+
+.profile__patent__specificity p {
+    font-size: 1.4rem;
+    color: var(--text-color-secondary);
 }
