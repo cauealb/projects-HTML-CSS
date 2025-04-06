@@ -33,6 +33,11 @@ body {
 .navbar a{
     color: var(--text-color-secondary);
     text-decoration: none;
+    transition: color 0.2s linear;
+}
+
+.navbar a:hover {
+    color: var(--brand-color);
 }
 
 .navbar img {
