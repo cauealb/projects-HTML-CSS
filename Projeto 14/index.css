@@ -55,3 +55,32 @@ body {
     width: 20px;
     cursor: pointer;
 }
+
+main {
+    padding: 0 2rem;
+    margin: 2rem 0;
+}
+
+.profile  {
+    display: flex;
+    gap: 2rem;
+}
+
+.profile__infos h1 {
+    margin: 0;
+
+}
+
+.profile img {
+    align-self: center;
+}
+
+.profile__infos {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile__infos p {
+    
+    width: 35%;
+}
