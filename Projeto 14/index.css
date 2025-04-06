@@ -23,11 +23,22 @@ body {
     padding: 2rem;
 }
 
+.info {
+    display: flex;
+    gap: 1rem;
+}
+
+.info img:nth-child(2) {
+    width: 35px;
+    cursor: pointer;
+}
+
 .navbar {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    width: 18rem;
+    gap: 1rem;
+    margin-right: 1rem;
 }
 
 .navbar a{
@@ -43,13 +54,4 @@ body {
 .navbar img {
     width: 20px;
     cursor: pointer;
-}
-
-.main {
-    display: flex;
-    gap: 1rem;
-}
-
-.main img:nth-child(2) {
-    width: 35px;
 }
