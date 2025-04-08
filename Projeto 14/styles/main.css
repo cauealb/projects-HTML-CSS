@@ -1,0 +1,55 @@
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 3.2rem;
+}
+
+.profile  {
+    display: flex;
+    align-items: center;
+    gap: 3.2rem;
+}
+
+.profile__infos h1 {
+    font: var(--text-lg);
+    color: var(--text-color-primary);
+    margin-bottom: 0.8rem;
+    font-size: 3.2rem;
+}
+
+.profile__infos p {
+    font: var(--text-md);
+    width: 43rem;
+    color: var(--text-color-secondary)
+}
+
+.profile img {
+    align-self: center;
+}
+
+.profile__infos {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    max-width: 384px;
+}
+
+.profile__patent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.6rem;
+    padding-right: 12rem;
+}
+
+.profile__patent__specificity {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.profile__patent__specificity p {
+    font-size: 1.4rem;
+    color: var(--text-color-secondary);
+}
