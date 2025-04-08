@@ -24,8 +24,22 @@
 }
 
 body {
-    font: var(--text-lg);
     color: var(--text-color-secondary);
     background-color: var(--surface-color);
     font-family: var(--font-family);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.2s linear;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: var(--brand-color);
+}
+
+.container {
+     padding-inline: 32px;
 }

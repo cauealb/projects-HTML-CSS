@@ -1,0 +1,41 @@
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 2rem;
+}
+
+.info {
+    display: flex;
+    gap: 1.6rem;
+}
+
+.info img:nth-child(2) {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.navbar a:first-child {
+    display: flex;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2rem;
+    margin-right: 1.6rem;
+    padding-block: 8px;
+}
+
+.navbar a:hover {
+    color: var(--brand-color);
+}
+
+.navbar img {
+    width: 20px;
+    cursor: pointer;
+}
