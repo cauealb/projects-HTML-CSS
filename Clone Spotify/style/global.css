@@ -15,3 +15,9 @@ html {
 body {
     font-family: "Roboto", sans-serif;
 }
+
+.container {
+    background-color: yellow;
+    max-width: 1400px;
+    margin-inline: auto;
+}
