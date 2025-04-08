@@ -19,13 +19,17 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins";
+    background-color: var(--surface-color);
+}
+.wapper {
+    max-width: 1240px;
+    margin: auto;
 }
 
 .head {
     display: flex;
     justify-content: space-between;
     padding: 2rem;
-    background-color: var(--surface-color);
 }
 
 .info {
@@ -67,7 +71,6 @@ main {
     justify-content: space-between;
     align-items: center;
     padding: 3.2rem 3.2rem 0.8rem 3.2rem;
-    background-color: var(--surface-color);
 }
 
 .profile  {
@@ -111,9 +114,13 @@ main {
 }
 
 .galery {
+    background-color: var(--skeleton-color);
     display: flex;
-    margin-top: 1.4rem;
+    padding-top: 1.4rem;
     flex-wrap: wrap;
     gap: 1.4rem;
-    flex: 0 0 1px
+}
+
+.galery__img {
+    flex: 12px;
 }
