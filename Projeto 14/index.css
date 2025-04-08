@@ -127,3 +127,18 @@ main {
     height: 286px;
     object-fit: cover;
 }
+
+footer {
+    background-color: var(--skeleton-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.4rem;
+    color: var(--text-color-secondary);
+    padding: 1.8rem;
+}
+
+footer div {
+    display: flex;
+    gap: 2rem;
+}
