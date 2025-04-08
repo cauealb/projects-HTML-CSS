@@ -116,11 +116,14 @@ main {
 .galery {
     background-color: var(--skeleton-color);
     display: flex;
-    padding-top: 1.4rem;
+    justify-content: center;
+    padding: 2.4rem;
     flex-wrap: wrap;
-    gap: 1.4rem;
+    gap: 2.4rem;
 }
 
 .galery__img {
-    flex: 12px;
+    width: 286px;
+    height: 286px;
+    object-fit: cover;
 }
