@@ -1,0 +1,19 @@
+.navbar {
+    display: flex;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.head img {
+    width: 150px;
+}
+
+.navbar img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+}
