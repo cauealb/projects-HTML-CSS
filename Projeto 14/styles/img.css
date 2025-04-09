@@ -1,0 +1,12 @@
+section {
+    display: flex;
+    flex-wrap: wrap;
+    padding-block: 24px;
+    gap: 24px;
+}
+
+section img {
+    width: 266px;
+    height: 26++6px;
+    object-fit: cover;
+}

@@ -1,14 +1,15 @@
-.navbar {
-    display: flex;
-}
-
 .head {
     display: flex;
     justify-content: space-between;
 }
 
 .head img {
-    width: 150px;
+    width: 170px;
+}
+
+.navbar {
+    display: flex;
+    gap: 2rem;
 }
 
 .navbar img {
@@ -16,4 +17,32 @@
     height: 45px;
     border-radius: 50%;
     object-fit: cover;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.navbar li {
+    list-style: none;
+    align-items: center;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+.navbar a:hover {
+    color: rgb(30, 215, 96);
+}
+
+.navbar li:last-child {
+    padding-inline: 0  3rem;
+    border-right: 2px solid white;
 }
