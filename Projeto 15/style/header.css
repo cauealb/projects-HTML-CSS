@@ -1,0 +1,24 @@
+.hero {
+    display: grid;
+    color: var(--text-color-primary);
+    grid-auto-flow: column;
+    justify-content: space-between;
+    align-content: center;
+    padding: 1.2rem;
+}
+
+.Logo {
+    color: var(--brand-color-light);
+    font-size: 3.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.List__search {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
