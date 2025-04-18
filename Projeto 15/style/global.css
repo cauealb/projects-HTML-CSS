@@ -23,3 +23,9 @@ body {
     font-family: "Archivo", sans-serif;
     background-color: var(--stroke-color);
 }
+
+.wapper {
+    padding-inline: 2.6rem;
+    max-width: 1550px;
+    margin-inline: auto;
+}
