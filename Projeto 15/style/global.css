@@ -24,6 +24,10 @@ body {
     background-color: var(--stroke-color);
 }
 
+img {
+    max-width: 100%;
+}
+
 .wapper {
     padding-inline: 2.6rem;
     max-width: 1550px;

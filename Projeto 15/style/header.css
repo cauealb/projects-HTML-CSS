@@ -29,6 +29,8 @@
     justify-content: space-between;
     box-sizing: border-box;
     font-size: 1.4rem;
+    padding: 1.2rem;
+
     & a {
         color: var(--text-color-secondary);
         text-decoration: none;
