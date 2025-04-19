@@ -7,6 +7,15 @@
 
     --text-color-primary: #F1F5F9;
     --text-color-secondary: #CBD5E1;
+
+    --font-family: "Aechivo", sans-serif;
+
+    --h1: 800 24px/135% var(--font-family);
+    --h2: 800 16px/140% var(--font-family);
+    --h3: 800 14px/140% var(--font-family);
+    --text-span: 800 14px/140% var(--font-family);
+    --text: 400 16px/140% var(--font-family);
+    --text-sm: 400 14px/160% var(--font-family);
 }
 
 * {
@@ -20,13 +29,26 @@ html {
 }
 
 body {
-    font-family: "Archivo", sans-serif;
+    font: var(--text);
     color: var(--text-color-primary);
     background-color: var(--bg-color);
 }
 
 img {
     max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+
+    &:hover {
+        color: var(--brand-color-light);
+    }
+}
+
+h1, h2, h3 {
+    font: inherit;
 }
 
 .wapper {
