@@ -56,3 +56,12 @@ h1, h2, h3 {
     max-width: 1550px;
     margin-inline: auto;
 }
+
+/* Utility-First */
+.grid {
+    display: grid;
+}
+
+.grid-flow-col {
+    grid-auto-flow: column;
+}
