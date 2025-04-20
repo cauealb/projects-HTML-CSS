@@ -1,6 +1,9 @@
-main {
-    display: grid;
-    gap: 3rem;
+#featured {
+    img {
+        height: 100%;
+        object-fit: cover;
+        border-radius: 4px;
+    }
 }
 
 
