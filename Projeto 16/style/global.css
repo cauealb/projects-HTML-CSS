@@ -13,4 +13,16 @@
     --gray-100: #878EA1;
     --gray-100: #C0C4CE;
     --gray-100: #E2E4E9;
+
+    /* Asap */
+    --title-lg: 56px 120% bold;
+    --title-md: 24px 120% bold;
+    --title-sm: 16px 120% bold;
+
+    /* Inconsolata */
+    --subtitle: 20px 120% regular;
+
+    /* Mazen Pro */
+    --text-md: 16px 140% regular;
+    --text-sm: 14px 140% regular;
 }
