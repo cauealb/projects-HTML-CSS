@@ -39,12 +39,46 @@
 }
 
 section header {
+    font: var(--text-span);
+    border-top: 1px solid var(--stroke-color);
+    padding-block: 12px 24px;
+
     a {
         justify-self: end;
-        
+        align-items: center;
+        gap: 8px;
+    }
+
+    span {
+        background-image: url(../img/ArrowRight.svg);
+        width: 16px;
+        height: 16px;
+    }
+
+    a:hover span {
+        background-image: url(../img/ArrowRight-hover.svg);
+        width: 16px;
+        height: 16px;
     }
 }
 
 #weekly{
-    padding-block: 24px;
+    & > div {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    figure {
+        position: relative;
+
+        .categoria-span {
+            position: absolute;
+            top: 8px;
+            left: 8px;
+        }
+
+        p {
+            font-weight: 800;
+            margin-top: 8px;
+        }
+    }
 }
