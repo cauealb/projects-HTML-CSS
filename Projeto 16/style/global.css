@@ -26,3 +26,21 @@
     --text-md: 16px 140% regular;
     --text-sm: 14px 140% regular;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url(../img/imagens/Background_Intro.png);
+}
+
+footer {
+    background-image: url(../img/imagens/Background_Contacts.png);
+}
+
+h1 {
+    font: var(--title-lg);
+}
