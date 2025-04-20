@@ -1,0 +1,16 @@
+:root {
+    /* PRINCIPAL */
+    --red: #E3646E;
+    --purple: #BB72E9;
+    --blue: #3996DB;
+    --green: #82BC4F;
+    --yellow: #EABD5F;
+
+    /* BASE */
+    --gray-100: #0D0E11;
+    --gray-100: #16181D;
+    --gray-100: #292C34;
+    --gray-100: #878EA1;
+    --gray-100: #C0C4CE;
+    --gray-100: #E2E4E9;
+}
