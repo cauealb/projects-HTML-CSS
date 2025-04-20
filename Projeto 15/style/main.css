@@ -38,5 +38,13 @@
     }
 }
 
+section header {
+    a {
+        justify-self: end;
+        
+    }
+}
 
-
+#weekly{
+    padding-block: 24px;
+}
