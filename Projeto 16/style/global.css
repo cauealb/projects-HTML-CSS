@@ -8,23 +8,27 @@
 
     /* BASE */
     --gray-100: #0D0E11;
-    --gray-100: #16181D;
-    --gray-100: #292C34;
-    --gray-100: #878EA1;
-    --gray-100: #C0C4CE;
-    --gray-100: #E2E4E9;
+    --gray-200: #16181D;
+    --gray-300: #292C34;
+    --gray-400: #878EA1;
+    --gray-500: #C0C4CE;
+    --gray-600: #E2E4E9;
+
+    --font-family-Asap: "Asap", sans-serif;
+    --font-family-Inconsolata: "Inconsolata", monospace;
+    --font-family-Maven-Pro: "Maven Pro", sans-serif;
 
     /* Asap */
-    --title-lg: 56px 120% bold;
-    --title-md: 24px 120% bold;
-    --title-sm: 16px 120% bold;
+    --title-lg: 700 56px/120% var(--font-family-Asap);
+    --title-md: 700 24px/120% var(--font-family-Asap);
+    --title-sm: 700 16px/120% var(--font-family-Asap);
 
     /* Inconsolata */
-    --subtitle: 20px 120% regular;
+    --subtitle: 400 20px/120% var(--font-family-Inconsolata);
 
     /* Mazen Pro */
-    --text-md: 16px 140% regular;
-    --text-sm: 14px 140% regular;
+    --text-md: 400 16px/140% var(--font-family-Maven-Pro);
+    --text-sm: 400 14px/140% var(--font-family-Maven-Pro);
 }
 
 * {
