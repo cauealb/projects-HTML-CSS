@@ -21,6 +21,16 @@
                 #020617 100%
             );
         }
+
+        & figcaption {
+            position: absolute;
+            bottom: 0;
+            padding: 18px;
+
+            & h1 {
+                margin-top: 8px;
+            }
+        }
     }
 }
 
