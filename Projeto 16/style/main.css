@@ -24,7 +24,12 @@
             padding: 10px;
             background-color: var(--gray-300);
             border-radius: 8px;
-            cursor: pointer;
+            transition: outline  0.2s linear;
+            outline: 2px solid transparent;
+
+            &:hover {
+                outline: 2px solid var(--gray-400);
+            }
 
             div {
                 padding: 16px 0 16px 6px;
