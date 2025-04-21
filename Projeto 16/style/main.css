@@ -1,0 +1,17 @@
+#projects {
+    align-items: center;
+    justify-content: center;
+
+    h2:first-child {
+        color: var(--red);
+    }
+
+    strong {
+        font: var(--title-md);
+        color: var(--gray-600);
+    }
+
+    & section {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

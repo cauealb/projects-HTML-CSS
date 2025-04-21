@@ -37,6 +37,10 @@
     box-sizing: border-box;
 }
 
+main {
+    background-color: var(--gray-200);
+}
+
 header {
     background-image: url(../img/imagens/Background_Intro.png);
     background-size: 100%;
@@ -49,4 +53,8 @@ footer {
 
 h1 {
     font: var(--title-lg);
+}
+
+h2  {
+    font: var(--subtitle);
 }
