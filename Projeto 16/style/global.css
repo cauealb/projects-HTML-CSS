@@ -58,3 +58,8 @@ h1 {
 h2  {
     font: var(--subtitle);
 }
+
+p {
+    color: var(--gray-500);
+    font: var(--text-sm);
+}
