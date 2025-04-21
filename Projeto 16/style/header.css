@@ -27,4 +27,14 @@ header {
             color: var(--red);
         }
     }
+
+    p {
+        font: var(--text-sm);
+        color: var(--gray-400);
+    }
+}
+
+#about {
+    justify-content: center;
+    align-items: center;
 }
