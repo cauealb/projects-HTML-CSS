@@ -1,7 +1,7 @@
 header {
     padding-block: 40px;
 
-    #about > div {
+    div:first-child {
         width: fit-content;
         position: relative;
     }
@@ -32,7 +32,6 @@ header {
 
     p {
         font: var(--text-sm);
-        color: var(--gray-400);
     }
 }
 
@@ -50,11 +49,15 @@ header {
         h1 {
             color: var(--gray-600);
         }
+
+        p {
+            color: var(--gray-400);
+        }
     }
 }
 
 #featured {
-    padding-block: 24px;
+    padding-block: 60px;
     margin-inline: auto;
     justify-content: space-between;
     max-width: 700px;
@@ -64,14 +67,17 @@ header {
         align-items: center;
         grid-auto-flow: column;
         gap: 8px;
-        align-items: center;
         background-color: var(--gray-300);
         padding: 10px;
         border-radius: 40px;
         cursor: pointer;
+        color: var(--gray-400);
+        transition: all 0.1s linear;
 
-        .cont {
-            background-color: var(--red);
+        &:hover {
+            background-color: var(--gray-100);
+            color: var(--gray-500);;
+            transform: translateY(-5px);
         }
     }
 
