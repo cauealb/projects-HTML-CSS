@@ -1,12 +1,12 @@
 header {
     padding-block: 40px;
 
-    & #about > div {
+    #about > div {
         width: fit-content;
         position: relative;
     }
 
-    img:first-child {
+    #about img:first-child {
         width: 87px;
         height: 87px;
         object-fit: cover;
@@ -51,4 +51,28 @@ header {
             color: var(--gray-600);
         }
     }
+}
+
+#featured {
+    padding-block: 24px;
+    margin-inline: auto;
+    justify-content: space-between;
+    max-width: 700px;
+
+    div {
+        display: grid;
+        align-items: center;
+        grid-auto-flow: column;
+        gap: 8px;
+        align-items: center;
+        background-color: var(--gray-300);
+        padding: 10px;
+        border-radius: 40px;
+        cursor: pointer;
+
+        .cont {
+            background-color: var(--red);
+        }
+    }
+
 }
