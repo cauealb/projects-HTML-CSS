@@ -22,17 +22,14 @@
         article {
             align-items: center;
             padding: 10px;
+            background-color: var(--gray-300);
+            border-radius: 8px;
+            cursor: pointer;
+
+            h2 {
+                color: var(--gray-600);
+                font: var(--title-sm);
+            }
         }
-    }
-}
-
-article {
-    background-color: var(--gray-300);
-    border-radius: 8px;
-    cursor: pointer;
-
-    h2 {
-        color: var(--gray-600);
-        font: var(--title-sm);
     }
 }
