@@ -25,7 +25,7 @@
             justify-content: space-between;
             align-items: center;
             cursor: pointer;
-            padding: 18px;
+            padding: 14px;
             gap: 8px;
             background-color: var(--gray-300);
             width: 400px;
@@ -39,6 +39,17 @@
 
             p {
                 flex-grow: 1;
+            }
+
+            img {
+                padding-block: 10px;
+                padding-inline: 10px;
+                border-radius: 50%;
+                transition: all 0.1s linear;
+            }
+
+            & img:hover {
+                transform: rotate(45deg);
             }
 
         }
