@@ -14,4 +14,27 @@
             color: var(--purple);
         }
     }
+
+    div:last-child {
+        justify-content: center;
+        align-items: center;
+        gap: 4px;
+        border: 2px solid transparent;
+        
+        div {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+            padding: 18px;
+            gap: 8px;
+            background-color: var(--gray-300);
+            width: 400px;
+            border-radius: 8px;
+
+            p {
+                flex-grow: 1;
+            }
+        }
+    }
 }
