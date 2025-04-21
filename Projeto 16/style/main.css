@@ -5,10 +5,10 @@
     div:first-child {
         align-items: center;
         gap: 8px;
-    }
 
-    & h2:nth-child(1) {
-        color: var(--red);
+        & h2:nth-child(1) {
+            color: var(--red);
+        }
     }
 
     strong {
@@ -17,7 +17,12 @@
     }
 
     & section {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(3, 330px);
+
+        article {
+            align-items: center;
+            padding: 10px;
+        }
     }
 }
 
@@ -25,7 +30,6 @@ article {
     background-color: var(--gray-300);
     border-radius: 8px;
     cursor: pointer;
-    width: fit-content;
 
     h2 {
         color: var(--gray-600);
