@@ -63,3 +63,15 @@ p {
     color: var(--gray-500);
     font: var(--text-sm);
 }
+
+.header__section {
+    h1 {
+        color: var(--gray-600);
+        font: var(--title-md);
+    }
+
+    h2 {
+        color: var(--red);
+        font: var(--subtitle);
+    }
+}
