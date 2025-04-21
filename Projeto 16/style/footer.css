@@ -1,0 +1,17 @@
+#contacts {
+    padding: 40px;
+
+    div:first-child {
+        justify-content: center;
+        align-items: center;
+
+        h1 {
+            font: var(--title-md);
+            color: var(--gray-600);
+        }
+
+        h2 {
+            color: var(--purple);
+        }
+    }
+}
