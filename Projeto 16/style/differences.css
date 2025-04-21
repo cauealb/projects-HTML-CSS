@@ -2,7 +2,7 @@
     background-color: var(--gray-100);
     justify-content: center;
     align-items: center;
-    padding-block: 40px 600px;
+    padding-block: 50px;
 
     section {
         grid-template-columns: repeat(3, 1fr);
