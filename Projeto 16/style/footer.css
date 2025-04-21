@@ -40,6 +40,71 @@
             p {
                 flex-grow: 1;
             }
+
+        }
+
+        div:nth-child(1)  {
+
+            span {
+                background-image: url(../img/icons/LinkedinLogo.png);
+                width: 28px;
+                height: 28px;
+
+            }
+
+            &:hover span {
+                background-image: url(../img/icons/LinkedinLogo\ hover.png);
+                width: 28px;
+                height: 28px;
+            }
+        }
+
+        div:nth-child(2)  {
+
+            span {
+                background-image: url(../img/icons/InstagramLogo.png);
+                width: 28px;
+                height: 28px;
+
+            }
+
+            &:hover span {
+                background-image: url(../img/icons/InstagramLogo\ hover.png);
+                width: 28px;
+                height: 28px;
+            }
+        }
+
+        div:nth-child(3)  {
+
+            span {
+                background-image: url(../img/icons/GithubLogo.png);
+                width: 28px;
+                height: 28px;
+
+            }
+
+            &:hover span {
+                background-image: url(../img/icons/GithubLogo\ hover.png);
+                width: 28px;
+                height: 28px;
+            }
+        }
+
+        div:nth-child(4)  {
+
+            span {
+                background-image: url(../img/icons/EnvelopeSimple.png);
+                width: 28px;
+                height: 28px;
+
+            }
+
+            &:hover span {
+                background-image: url(../img/icons/EnvelopeSimple\ hover.png);
+                width: 28px;
+                height: 28px;
+            }
         }
     }
 }
