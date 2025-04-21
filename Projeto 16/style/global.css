@@ -65,6 +65,10 @@ p {
 }
 
 .header__section {
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
     h1 {
         color: var(--gray-600);
         font: var(--title-md);
