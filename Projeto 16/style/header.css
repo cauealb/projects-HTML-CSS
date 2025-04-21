@@ -15,10 +15,14 @@ header {
         padding: 5px;
     }
 
-    img:last-child {
+    img:nth-child(2) {
         position: absolute;
         right: 0;
         bottom: 0;
+    }
+
+    img:nth-child(3) {
+        margin-inline: auto;
     }
 
     h2 {
