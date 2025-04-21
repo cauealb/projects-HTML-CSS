@@ -1,6 +1,7 @@
 #projects {
     align-items: center;
     justify-content: center;
+    padding-block: 50px;
 
     div:first-child {
         align-items: center;
