@@ -20,12 +20,6 @@ body {
     }
 }
 
-
-.main .principal {
-    font-size: 90px;
-    margin: 5px auto 13px auto;
-}
-
 .main {
     color: white;
     margin-block: 8rem;
@@ -36,11 +30,14 @@ body {
     .principal {
         font-size: 3rem;
         transition: color 0.1s linear;
+        margin: 0.10em auto 0.50em ;
         
         &:hover {
             color: black;
         }
     }
+
+    .
 }
 
 
