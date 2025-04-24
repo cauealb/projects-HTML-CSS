@@ -70,16 +70,19 @@ a:hover {
 }
 
 
-
-@media (max-width: 31.25em) {
-    ul {
+/* Para celulares pequenos */
+@media (max-width: 35.94em) {
+    .menu {
+        margin-block: 1em;
         display: flex;
-        align-items: center;
         justify-content: center;
-        font-size: 0.50em;
-    }
-    .button {
-        width: max-content;
-        background-color: yellow;
+        align-items: center;
+        gap: 9%;
+        
+        a {
+            font-size: 0.75em;
+            text-decoration: none;
+            color: white;
+        }
     }
 }
