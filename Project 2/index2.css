@@ -50,6 +50,11 @@ body {
         border-radius: 8px;
         margin: 1em auto;
         width: fit-content;
+        transition: background-color 0.1s linear;
+
+        &:hover {
+            background-color: black;
+        }
     }
 }
 
