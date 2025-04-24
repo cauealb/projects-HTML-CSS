@@ -6,7 +6,7 @@ body {
     background-size: 1550px;
 }
 
-header {
+/* header {
     margin-top: 1px;
 }
 
@@ -38,7 +38,7 @@ a:hover {
 
 #home:hover {
     color: goldenrod;
-}
+} */
 
 .main {
     color: white;
@@ -69,11 +69,17 @@ a:hover {
     text-decoration: none;
 }
 
+
+
 @media (max-width: 31.25em) {
     ul {
         display: flex;
         align-items: center;
         justify-content: center;
         font-size: 0.50em;
+    }
+    .button {
+        width: max-content;
+        background-color: yellow;
     }
 }
