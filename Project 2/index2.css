@@ -20,10 +20,6 @@ body {
     }
 }
 
-a{
-   
-}
-
 .main {
     color: white;
     margin-block: 8rem;
@@ -39,6 +35,10 @@ a{
         &:hover {
             color: black;
         }
+    }
+
+    .p-principal {
+        font-size: 0.75em;
     }
 
     a {
