@@ -20,18 +20,29 @@ body {
     }
 }
 
+
+.main .principal {
+    font-size: 90px;
+    margin: 5px auto 13px auto;
+}
+
 .main {
     color: white;
     margin-block: 8rem;
     margin-inline: auto;
     text-align: center;
     padding: 1.5em;
+
+    .principal {
+        font-size: 3rem;
+        transition: color 0.1s linear;
+        
+        &:hover {
+            color: black;
+        }
+    }
 }
 
-.main .principal {
-    font-size: 90px;
-    margin: 5px auto 13px auto;
-}
 
 .p-principal {
     margin-bottom: 12px;
