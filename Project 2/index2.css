@@ -6,39 +6,20 @@ body {
     background-size: 1550px;
 }
 
-/* header {
-    margin-top: 1px;
+.menu {
+    margin-block: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9%;
+    
+    a {
+        font-size: 0.75em;
+        text-decoration: none;
+        color: white;
+    }
 }
 
-ul {
-    text-align: right;
-    margin-top: 30px;
-}
-
-li {
-    list-style: none;
-    display: inline-block;
-    margin-right: 10px;
-}
-
-li a {
-    color: white;
-    text-decoration: none;
-    letter-spacing: 1px;
-    padding: 10px;
-}
-
-#contact {
-    margin-right: 100px;
-}
-
-a:hover {
-    background-color: rgba(240, 240, 240, 0.3);
-}
-
-#home:hover {
-    color: goldenrod;
-} */
 
 .main {
     color: white;
@@ -72,17 +53,11 @@ a:hover {
 
 /* Para celulares pequenos */
 @media (max-width: 35.94em) {
+    
+}
+
+@media (min-width: 35.94em) and (max-width: 47.94em) {
     .menu {
-        margin-block: 1em;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 9%;
-        
-        a {
-            font-size: 0.75em;
-            text-decoration: none;
-            color: white;
-        }
+        background-color: yellow;
     }
 }
