@@ -20,6 +20,10 @@ body {
     }
 }
 
+a{
+   
+}
+
 .main {
     color: white;
     margin-block: 8rem;
@@ -37,23 +41,16 @@ body {
         }
     }
 
-    .
-}
-
-
-.p-principal {
-    margin-bottom: 12px;
-}
-
-.button a{
-    display: block;
-    padding: 10px;
-    background-color: rgb(206, 6, 6);
-    color: white;
-    border-radius: 5px;
-    margin: 20px auto auto auto;
-    width: fit-content;
-    text-decoration: none;
+    a {
+        display: block;
+        text-decoration: none;
+        padding: 0.60em;
+        background-color: rgb(206, 6, 6);
+        color: white;
+        border-radius: 8px;
+        margin: 1em auto;
+        width: fit-content;
+    }
 }
 
 
