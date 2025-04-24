@@ -20,14 +20,12 @@ body {
     }
 }
 
-
 .main {
     color: white;
-    width: 60%;
-    margin: 100px auto;
+    margin-block: 8rem;
+    margin-inline: auto;
     text-align: center;
-    padding: 12px;
-    display: block;
+    padding: 1.5em;
 }
 
 .main .principal {
