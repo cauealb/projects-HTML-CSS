@@ -58,14 +58,15 @@ body {
     }
 }
 
-
-/* Para celulares pequenos */
-@media (max-width: 35.94em) {
-    
-}
-
-@media (min-width: 35.94em) and (max-width: 47.94em) {
+/* Para tablets */
+@media (min-width: 48em) {
     .menu {
-        background-color: yellow;
-    }
+        justify-content: end;
+        margin-inline: 0 2em;
+        gap: 4rem;
+        
+        a {
+            font-size: 0.85em;
+        }
+    } 
 }
