@@ -153,3 +153,16 @@ span {
         margin-left: 2em;
     }
 }
+
+@media screen and (min-width: 50em) {
+    .cards {
+        grid-template-columns: repeat(2, 400px);
+    }
+}
+
+@media screen and (min-width: 62em) {
+    header {
+        max-width: 62em;
+        background-color: yellow;
+    }
+}
