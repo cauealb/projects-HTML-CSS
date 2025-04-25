@@ -23,7 +23,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 90%;
+    width: 80%;
     margin-inline: auto;
 }
 
@@ -105,11 +105,11 @@ span {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     letter-spacing: 2px;
     text-decoration: none;
-    padding: 16px;
+    padding: 1em;
     text-align: center;
     background-color: #cbe300;
     border-radius: 10px;
-    margin: auto auto 10px auto;
+    margin: auto auto 0.62em auto;
     color: black;
 }
 
@@ -118,7 +118,6 @@ span {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: rgba(238, 238, 238, 0.5);
     font-size: 14px;
-    flex: 1;
     flex: 1;
 }
 
