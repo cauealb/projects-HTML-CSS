@@ -119,12 +119,13 @@ span {
     color: rgba(238, 238, 238, 0.5);
     font-size: 14px;
     flex: 1;
+    margin-block: 2em;
 }
 
 .main-cards h4 {
     font-family: Verdana, Geneva, Tahoma, sans-serif    ;
-    font-size: 25px;
-    margin: 20px 0 35px 10px;
+    font-size: 1.56em;
+    margin-block: 1em 0;
 }
 
 .main-cards li {
