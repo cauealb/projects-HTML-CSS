@@ -14,28 +14,30 @@ body {
 
 header .Myserver {
     font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 1.25em;
+    font-size: 1.5em;
     text-transform: uppercase;
     text-align: left;
     margin-inline: 0.75em 1em;
     color: white;
 }
 
-/*
+
 
 header {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: rgba(45, 45, 60, 0.3);
     display: flex;
-    width: 70%;
-    margin: auto;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin-inline: auto;
 }
 
 .menu {
     display: flex;
-    gap: 15px;
+    gap: 0.50em;
     list-style-type: none;
-    margin: 10px 50px 15px;
+    margin-inline: 0 2rem;
 }
 
 .menu__li a{
@@ -45,6 +47,7 @@ header {
     color: white;
     text-decoration: none;
     border-radius: 5px;
+    font-size: 0.80em;
 }
 
 .menu__li a:hover {
@@ -66,6 +69,8 @@ header {
     text-align: center;
     margin-top: 45px;
 }
+
+/*
 
 main {
     color: white;
