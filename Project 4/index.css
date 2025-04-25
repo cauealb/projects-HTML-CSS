@@ -141,3 +141,15 @@ span {
 .main-cards li::marker {
     color: #cbe300;
 }
+
+@media screen and (min-width: 42em) {
+    header {
+        width: 90%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .Myserver {
+        margin-left: 2em;
+    }
+}
