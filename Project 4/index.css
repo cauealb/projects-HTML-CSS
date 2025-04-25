@@ -64,16 +64,12 @@ header {
     margin-block: 2em;
 }
 
-/*
-
 main {
     color: white;
 }
 
 .cards {
-    width: 80%;
-    max-width: 900px;
-    display: flex;
+    display: grid;
     justify-content: center;
     margin: auto;
     gap: 30px;
@@ -82,11 +78,10 @@ main {
 .main-cards {
     display: flex;
     flex-direction: column;
-    flex-basis: 500px;
+    width: 15rem;
     padding: 10px;
     background-color: rgba(45, 45, 60, 0.3);
     border-radius: 7px;
-    height: fit-content;
     box-shadow: 0 1px 15px -6px rgba(98, 98, 98, 0.9);
 }
 
@@ -98,6 +93,7 @@ main {
     border-bottom: 2px solid #cbe300;
     padding-bottom: 10px;
 }
+
 
 span {
     text-transform: lowercase;
@@ -116,6 +112,7 @@ span {
     margin: auto auto 10px auto;
     color: black;
 }
+
 
 .main-cards ul {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -143,4 +140,4 @@ span {
 
 .main-cards li::marker {
     color: #cbe300;
-} */
+}
