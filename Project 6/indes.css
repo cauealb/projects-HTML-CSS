@@ -79,20 +79,53 @@ body {
 }
 
 .principal img {
-    margin-right: 200px;
-    width: 480px;
+    width: 80%;
+}
+
+.principal__info div {
+    margin-block: 1em;
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+    align-items: center;
+
+    a:first-child {
+        border-radius: 0.20em;
+        background-color: cornflowerblue;
+        color: white;
+        padding: 0 0.65em;
+        font-size: 1.10em;
+        font-weight: bold;
+        transition: all 0.1s linear;
+    }
+
+    a:last-child {
+        border-radius: 0.20em;
+        color: #a8a8a8;
+        padding: 0 0.65em;
+        font-size: 1.10em;
+        font-weight: bold;
+        transition: all 0.1s linear;
+    }
+}
+
+.principal__info  div a:first-child:hover {
+    background-color: transparent;
+    color: #a8a8a8;
+    text-decoration: underline;
+}
+
+.principal__info  div a:last-child:hover {
+    text-decoration: underline;
 }
 
 a.principal__sign{
     color: white;
-    font-size: 26px;
-    letter-spacing: 1px;
-    padding: 10px;
-    text-decoration: none;
+    font-size: 5em;
     background-color: cornflowerblue;
-    margin-right: 25px;
-    padding: 10px 30px;
+    font-size: 4em;
 }
+
 
 .principal__info a {
     font-size: 30px;
