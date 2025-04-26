@@ -130,17 +130,16 @@ body {
     color: #eee;
 }
 
-.infos__article:nth-child(1){
-    margin-left: 100px;
-}
-
 .infos__article {
-    padding: 33px;
+    padding: 2em;
+    transition: all 0.1s linear;
+    cursor: pointer;
 }
 
 .infos__article:hover {
     background-color: #ebebeb;
 }
+
 .infos__article:hover  p  {
     color: black;
 }
