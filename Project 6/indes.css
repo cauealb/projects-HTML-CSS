@@ -8,6 +8,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-block: 1em;
 }
 
 .menu__logo {
@@ -25,8 +26,12 @@ body {
 .menu__ul {
     display: flex;
     align-items: center;
+    justify-content: end;
     list-style-type: none;
     margin-inline: 0 2em;
+    width: 100%;
+    /* background-color: yellow; */
+    gap: 0.75em;
 }
 
 .menu__ul a {
