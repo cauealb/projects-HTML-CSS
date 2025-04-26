@@ -69,11 +69,13 @@ body {
 
 .principal__info h1 {
     color: #a8a8a8;
-    font-size: 65px;
     font-weight: bold;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-transform: capitalize;
-    margin-top: 1px;
+    display: block;
+    margin: 0;
+    line-height: 1em;
+    text-align: center;
 }
 
 .principal img {
