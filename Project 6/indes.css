@@ -86,7 +86,7 @@ body {
 }
 
 .principal img {
-    max-width: 25em;
+    max-width: 20em;
 }
 
 .principal__info div {
@@ -97,6 +97,7 @@ body {
     align-items: center;
 
     a:first-child {
+        display: inline-block;
         border-radius: 0.20em;
         background-color: cornflowerblue;
         color: white;
@@ -105,6 +106,7 @@ body {
         font-weight: bold;
         transition: all 0.1s linear;
         text-decoration: none;
+        box-sizing: border-box;
 
         &:hover {
             background-color: transparent;
@@ -114,6 +116,7 @@ body {
     }
 
     a:last-child {
+        display: inline-block;
         border-radius: 0.20em;
         color: #a8a8a8;
         padding: 0 0.65em;
@@ -121,6 +124,7 @@ body {
         font-weight: bold;
         transition: all 0.1s linear;
         text-decoration: none;
+        box-sizing: border-box;
 
         &:hover {
             text-decoration: underline;
@@ -152,15 +156,21 @@ body {
 }
 
 
-@media screen and (min-width: 35.94em) {
+@media screen and (min-width: 40em) {
     header {
         max-width: 1200px;
         margin-inline: auto;
     }
 
     .principal {
+        gap: 0;
         grid-auto-flow: column;
-        justify-content: space-between;
+        justify-content: space-between; 
+
+        img {
+            max-width: 23em;
+            padding: 0;
+        }
 
         .principal__info {
             padding-inline: 2em;
