@@ -6,26 +6,33 @@ body {
 
 .menu {
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    margin-top: 10px;
 }
 
 .menu__logo {
-    font-family: Georgia, 'Times New Roman', Times, serif   ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     line-height: 0.5em;
     margin-left: 1em;
     font-size: 0.65em;
+    transition: all 0.1s linear;
+}
+
+.menu__logo:hover {
+    transform: translateX(10px);
 }
 
 .menu__ul {
     display: flex;
+    align-items: center;
     list-style-type: none;
+    margin-inline: 0 2em;
 }
 
 .menu__ul a {
     color: cornflowerblue;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 0.95em;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 16px;
     border-radius: 8px;
