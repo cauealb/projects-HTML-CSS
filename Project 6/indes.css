@@ -79,7 +79,7 @@ body {
 }
 
 .principal img {
-    width: 80%;
+    max-width: 25em;
 }
 
 .principal__info div {
