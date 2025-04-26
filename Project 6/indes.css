@@ -97,6 +97,13 @@ body {
         font-size: 1.10em;
         font-weight: bold;
         transition: all 0.1s linear;
+        text-decoration: none;
+
+        &:hover {
+            background-color: transparent;
+            color: #a8a8a8;
+            text-decoration: underline;
+        }
     }
 
     a:last-child {
@@ -106,41 +113,12 @@ body {
         font-size: 1.10em;
         font-weight: bold;
         transition: all 0.1s linear;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
     }
-}
-
-.principal__info  div a:first-child:hover {
-    background-color: transparent;
-    color: #a8a8a8;
-    text-decoration: underline;
-}
-
-.principal__info  div a:last-child:hover {
-    text-decoration: underline;
-}
-
-a.principal__sign{
-    color: white;
-    font-size: 5em;
-    background-color: cornflowerblue;
-    font-size: 4em;
-}
-
-
-.principal__info a {
-    font-size: 30px;
-    letter-spacing: 1px;
-    padding: 10px;
-    text-decoration: none;
-}
-
-a.principal__show {
-    color: cornflowerblue;
-}
-
-a.principal__show:hover {
-    background-color: cornflowerblue;
-    color: white;
 }
 
 .infos {
