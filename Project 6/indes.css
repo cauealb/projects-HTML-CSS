@@ -4,6 +4,11 @@ body {
     box-sizing: border-box;
 }
 
+.wapper {
+    max-width: 1540px;
+    margin-inline: auto;
+}
+
 .menu {
     display: flex;
     align-items: center;
@@ -144,3 +149,10 @@ body {
 .infos__article:hover  p  {
     color: black;
 }
+
+
+/* @media screen and (min-width: 35.94em) {
+    header {
+        background-color: yellow;
+    }
+} */
