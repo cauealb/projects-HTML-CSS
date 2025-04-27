@@ -15,8 +15,8 @@
     /* Header */
     --title-head: 700 2em var(--font-family-Poppins);
     --title-p: 400 1em var(--font-family-Roboto);
-    --title-nav: 400 1.125em var(--font-family-Roboto)
-    --title-head-post: 700 1.5em var(--font-family-Poppins)
+    --title-nav: 400 1.125em var(--font-family-Roboto);
+    --title-head-post: 700 1.5em var(--font-family-Roboto);
 }
 
 * {
