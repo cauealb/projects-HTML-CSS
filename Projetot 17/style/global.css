@@ -1,0 +1,18 @@
+:root {
+    --bg-color: #290742;
+    --text-color-head: #9E6DC2;
+    --text-color-p: #FBF6FF;
+    --text-color-header: #FFFFFF;
+    --color-green: #4FFF4B;
+    --text-color-p-post: #000000;
+
+
+    /* --font-post: "Poppins", san */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
