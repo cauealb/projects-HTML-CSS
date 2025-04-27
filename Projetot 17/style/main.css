@@ -21,3 +21,14 @@
     font: var(--title-p);
     color: var(--text-color-p);
 }
+
+#hero > div:first-child div {
+    justify-content: center;
+    align-items: center;
+    gap: 0.30em;
+}
+
+#hero > div:first-child div a {
+    color: var(--text-color-p);
+    text-decoration: none;
+}
