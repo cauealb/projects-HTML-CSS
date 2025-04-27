@@ -1,7 +1,7 @@
 #head {
     background-color: var(--bg-color);
     justify-content: space-between;
-    padding-block: 1.5em;
+    padding: 1.5em 1em;
 }
 
 #head img {
