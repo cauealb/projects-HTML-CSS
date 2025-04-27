@@ -1,0 +1,8 @@
+#weekly div h2 {
+    padding-block: 0.20em;
+}
+
+#weekly div span {
+    display: block;
+    font: var(--title-p);
+}
