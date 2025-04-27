@@ -1,9 +1,25 @@
 #head {
     background-color: var(--bg-color);
+    justify-content: space-between;
 }
 
 #head img {
     width: 6em;
+}
+
+#navbar {
+    /* display: none; */
+}
+
+#navbar a {
+    text-decoration: none;
+    color: var(--text-color-header);
+    font: var(--title-nav);
+}
+
+#navbar a:first-child {
+    border-left: 3px solid var(--color-green);
+    padding-left: 0.20em;
 }
 
 div {
