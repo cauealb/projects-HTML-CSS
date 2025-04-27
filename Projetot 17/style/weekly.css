@@ -3,22 +3,6 @@
     padding-inline: 1em;
 }
 
-#weekly img {
-    width: 25em;
-    text-align: center;
-}
-
-#weekly span, p {
-    display: block;
-    font: var(--title-p);
-}
-
-#weekly h2 {
-    font: var(--title-head-post);
-    color: var(--bg-color);
-    margin-block: 0.20em;
-}
-
 #weekly > * {
     padding-block: 1em;
 }

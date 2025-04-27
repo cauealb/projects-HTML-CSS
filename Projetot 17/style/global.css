@@ -25,3 +25,17 @@
     box-sizing: border-box;
 }
 
+article img {
+    width: 25em;
+}
+
+article span, p {
+    display: block;
+    font: var(--title-p);
+}
+
+article h2 {
+    font: var(--title-head-post);
+    color: var(--bg-color);
+    margin-block: 0.20em;
+}
