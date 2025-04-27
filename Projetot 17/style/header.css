@@ -28,6 +28,33 @@
     color: var(--text-color-p);
 }
 
-div {
-    display: none;
+#head div {
+    justify-content: center;
+    align-items: center;
+}
+
+#head input {
+    padding-block: 0.55em;
+    padding-inline: 1.5em 0;
+    background-color: var(--bg-color-input);
+    border: none;
+    outline: none;
+    color: var(--color-input);
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+#head input::placeholder {
+    color: var(--color-input);
+}
+
+#head button {
+    background-color: var(--text-color-head);
+    cursor: pointer;
+    border: none;
+    padding: 0.30em 0.95em;
+}
+
+#head button img {
+    width: 15px;
 }
