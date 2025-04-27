@@ -1,0 +1,11 @@
+#head {
+    background-color: var(--bg-color);
+}
+
+#head img {
+    width: 6em;
+}
+
+div {
+    display: none;
+}
