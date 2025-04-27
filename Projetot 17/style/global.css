@@ -7,8 +7,12 @@
     --text-color-p-post: #000000;
 
 
-    --font-header: "Poppins", sans-serif;
-    --font-post: "Roboto", sans-serif;
+    --font-family-Poppins: "Poppins", sans-serif;
+    --font-family-Roboto: "Roboto", sans-serif;
+
+    /* Header */
+    --title-head: 400 2em var(--font-family-Poppins);
+    --title-p: 400 1em var(--font-family-Roboto);
 }
 
 * {
