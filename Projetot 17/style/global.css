@@ -52,3 +52,11 @@ section {
 #weekly > *, #best_weekly > * {
     padding-block: 1em;
 }
+
+/* Responsive */
+
+@media screen and (min-width: 35.94em) {
+    #hero > img:last-child {
+        display: block;
+    }
+}
