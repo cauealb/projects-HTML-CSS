@@ -43,3 +43,12 @@ article h2 {
 section {
     padding-inline: 1em;
 }
+
+
+#weekly, #best_weekly {
+    padding-block: 2em;
+}
+
+#weekly > *, #best_weekly > * {
+    padding-block: 1em;
+}
