@@ -7,7 +7,8 @@
     --text-color-p-post: #000000;
 
 
-    /* --font-post: "Poppins", san */
+    --font-header: "Poppins", sans-serif;
+    --font-post: "Roboto", sans-serif;
 }
 
 * {
