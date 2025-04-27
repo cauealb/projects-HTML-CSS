@@ -29,6 +29,9 @@
 }
 
 #hero > div:first-child div a {
-    color: var(--text-color-p);
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.125em;
+    color: var(--text-color-head);
     text-decoration: none;
 }
