@@ -13,7 +13,7 @@
     --font-family-Roboto: "Roboto", sans-serif;
 
     /* Header */
-    --title-head: 400 2em var(--font-family-Poppins);
+    --title-head: 700 2em var(--font-family-Poppins);
     --title-p: 400 1em var(--font-family-Roboto);
     --title-nav: 400 1.125em var(--font-family-Roboto)
 }

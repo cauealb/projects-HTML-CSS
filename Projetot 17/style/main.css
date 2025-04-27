@@ -1,3 +1,11 @@
 #hero > div:last-child {
     display: none;
 }
+
+#hero > div:first-child {
+
+}
+
+#hero > div:first-child h1 {
+    font: var(--title-head);
+}
