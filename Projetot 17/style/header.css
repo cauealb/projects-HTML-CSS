@@ -1,6 +1,7 @@
 #head {
     background-color: var(--bg-color);
     justify-content: space-between;
+    padding-block: 1.5em;
 }
 
 #head img {
@@ -20,6 +21,11 @@
 #navbar a:first-child {
     border-left: 3px solid var(--color-green);
     padding-left: 0.20em;
+    transition: all 0.2s linear;
+}
+
+#navbar a:hover {
+    color: var(--text-color-p);
 }
 
 div {
