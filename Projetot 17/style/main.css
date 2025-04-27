@@ -3,9 +3,20 @@
 }
 
 #hero > div:first-child {
-
+    background-color: var(--bg-color);
+    justify-content: center;
+    align-items: center;
+    padding-block: 1em 2em;
+    text-align: center;
+    border-bottom: 10px solid var(--color-green);
 }
 
 #hero > div:first-child h1 {
     font: var(--title-head);
+    color: var(--text-color-head);
+}
+
+#hero > div:first-child p {
+    font: var(--title-p);
+    color: var(--text-color-p);
 }
