@@ -56,7 +56,35 @@ section {
 /* Responsive */
 
 @media screen and (min-width: 35.94em) {
-    #hero > img:last-child {
+    /* #hero {
+        display: initial;
+    }
+    
+    #hero > div:last-child {
         display: block;
+        width: 400px;
+    } */
+
+    #weekly {
+        grid-template: 
+        "A B" 15em
+        "A C";
+        column-gap: 1.8em;
+    }
+
+    #weekly article {
+        grid-area: A;
+    }
+
+    #weekly img {
+        width: 100%;
+    }
+
+    #weekly > div:first-child {
+        grid-area: B;
+    }
+
+    #weekly > div:last-child {
+        grid-area: C;
     }
 }
