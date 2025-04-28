@@ -62,8 +62,9 @@ section {
         margin-inline: auto;   
     }
 
-    #head, #weekly, #best_weekly {
-        padding-inline: 1em;
+    #head {
+        justify-content: space-between;
+        background-color: yellow;
     }
 
     #head img {
@@ -104,8 +105,10 @@ section {
 }
 
 @media screen and (min-width: 47.94em) {
-    #head, #weekly, #best_weekly {
-        padding-inline: 5em;
+
+    #head {
+        justify-content: space-between;
+        background-color: yellow;
     }
 
     #navbar {
