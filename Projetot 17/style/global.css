@@ -63,7 +63,11 @@ section {
     }
 
     #head, #weekly, #best_weekly {
-        padding-inline: 5em;
+        padding-inline: 1em;
+    }
+
+    #head img {
+        font-size: 1.5em;
     }
 
     #weekly {
@@ -100,6 +104,10 @@ section {
 }
 
 @media screen and (min-width: 47.94em) {
+    #head, #weekly, #best_weekly {
+        padding-inline: 5em;
+    }
+
     #navbar {
         display: block;
     }
