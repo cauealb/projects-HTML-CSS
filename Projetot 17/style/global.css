@@ -87,4 +87,20 @@ section {
     #weekly > div:last-child {
         grid-area: C;
     }
+
+    #best_weekly {
+        column-gap: 1em;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #best_weekly img {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 47.94em) {
+    #best_weekly {
+        column-gap: 1em;
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
