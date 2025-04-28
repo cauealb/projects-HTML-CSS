@@ -1,6 +1,6 @@
 #head {
     background-color: var(--bg-color);
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding-block: 1.5em;
 }
