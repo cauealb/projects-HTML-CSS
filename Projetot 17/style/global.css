@@ -56,6 +56,15 @@ section {
 /* Responsive */
 
 @media screen and (min-width: 35.94em) {
+    .wrapper {
+        width: 100%;
+        max-width: 1540px;
+        margin-inline: auto;   
+    }
+
+    #head, #weekly, #best_weekly {
+        padding-inline: 5em;
+    }
 
     #weekly {
         grid-template: 
@@ -91,7 +100,12 @@ section {
 }
 
 @media screen and (min-width: 47.94em) {
+    #navbar {
+        display: block;
+    }
+
     #best_weekly {
+        padding-inline: 5em;
         grid-template-columns: repeat(3, 1fr);
     }
 
