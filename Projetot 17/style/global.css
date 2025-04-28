@@ -74,6 +74,7 @@ section {
 
     #weekly article {
         grid-area: A;
+        max-width: 30em;
     }
 
     #weekly img {
