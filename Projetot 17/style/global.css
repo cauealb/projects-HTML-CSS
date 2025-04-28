@@ -56,14 +56,6 @@ section {
 /* Responsive */
 
 @media screen and (min-width: 35.94em) {
-    /* #hero {
-        display: initial;
-    }
-    
-    #hero > div:last-child {
-        display: block;
-        width: 400px;
-    } */
 
     #weekly {
         grid-template: 
