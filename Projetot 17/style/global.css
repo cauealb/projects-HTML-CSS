@@ -71,6 +71,11 @@ section {
         font-size: 1.5em;
     }
 
+    #hero > div:last-child {
+        display: inline;
+        width: 100%;
+    }
+
     #weekly {
         grid-template: 
         "A B" 15em
@@ -125,6 +130,5 @@ section {
 
     #best_weekly article {
         max-width: 20em;
-        background-color: black;
     }
 }
