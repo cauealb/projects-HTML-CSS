@@ -116,13 +116,7 @@ section {
 
     #hero > div:last-child {
         display: inline;
-        width: 80%;
-    }
-
-    #hero > div:last-child img {
-        /* width: 100%; */
-        /* max-width: 30em; */
-        min-width: 10em;
+        width: 100%;
     }
 
     #navbar {
@@ -134,18 +128,17 @@ section {
     }
 
     #hero {
-        /* grid-auto-flow: column; */
         justify-content: center;
         align-items: center;
         padding-inline: 5em;
     }
 
     #hero > div:first-child {
-        text-align: start;
+        /* text-align: start; */
     }
 
     #hero > div:first-child div {
-        justify-content: start;
+        /* justify-content: start; */
     }
 
     #hero > div:last-child {
