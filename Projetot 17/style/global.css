@@ -63,17 +63,16 @@ section {
     }
 
     #head {
-        justify-content: space-around;
-        padding-block: 2em;
+        justify-content: space-between;
+        padding: 2em 5em
     }
 
     #head img {
         font-size: 1.5em;
     }
 
-    #hero > div:last-child {
-        display: inline;
-        width: 100%;
+    #hero {
+        grid-auto-flow: row;
     }
 
     #weekly {
@@ -115,12 +114,30 @@ section {
         padding-block: 3em;
     }
 
+    #hero > div:last-child {
+        display: inline;
+        width: 100%;
+    }
+
     #navbar {
         display: flex;
     }
 
     #navbar a {
         font-size: 0.75em;
+    }
+
+    #hero {
+        grid-auto-flow: column;
+        padding-inline: 5em;
+    }
+
+    #hero > div:first-child {
+        text-align: start;
+    }
+
+    #hero > div:first-child div {
+        justify-content: start;
     }
 
     #best_weekly {
