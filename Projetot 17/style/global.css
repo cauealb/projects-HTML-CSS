@@ -63,8 +63,8 @@ section {
     }
 
     #head {
-        justify-content: space-between;
-        background-color: yellow;
+        justify-content: space-around;
+        padding-block: 2em;
     }
 
     #head img {
@@ -107,20 +107,24 @@ section {
 @media screen and (min-width: 47.94em) {
 
     #head {
-        justify-content: space-between;
-        background-color: yellow;
+        padding-block: 3em;
     }
 
     #navbar {
-        display: block;
+        display: flex;
+    }
+
+    #navbar a {
+        font-size: 0.75em;
     }
 
     #best_weekly {
-        padding-inline: 5em;
+        padding-inline: 1em;
         grid-template-columns: repeat(3, 1fr);
     }
 
     #best_weekly article {
-        max-width: 25em;
+        max-width: 20em;
+        background-color: black;
     }
 }
