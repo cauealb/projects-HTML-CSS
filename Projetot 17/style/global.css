@@ -108,6 +108,12 @@ section {
     }
 }
 
+@media screen and (min-width: 46em) {
+    #hero > div:first-child h1 {
+        font-size: 0.75em;
+    }
+}
+
 @media screen and (min-width: 47.94em) {
 
     #head {
@@ -128,21 +134,20 @@ section {
     }
 
     #hero {
-        justify-content: center;
-        align-items: center;
+        grid-auto-flow: column;
         padding-inline: 5em;
     }
 
     #hero > div:first-child {
-        /* text-align: start; */
+        text-align: start;
     }
 
     #hero > div:first-child div {
-        /* justify-content: start; */
+        justify-content: start;
     }
 
-    #hero > div:last-child {
-        grid-row: 1/1;
+    #hero > div:first-child h1 {
+        font-size: 2em;
     }
 
     #best_weekly {
