@@ -116,7 +116,13 @@ section {
 
     #hero > div:last-child {
         display: inline;
-        width: 100%;
+        width: 80%;
+    }
+
+    #hero > div:last-child img {
+        /* width: 100%; */
+        /* max-width: 30em; */
+        min-width: 10em;
     }
 
     #navbar {
@@ -128,7 +134,9 @@ section {
     }
 
     #hero {
-        grid-auto-flow: column;
+        /* grid-auto-flow: column; */
+        justify-content: center;
+        align-items: center;
         padding-inline: 5em;
     }
 
@@ -138,6 +146,10 @@ section {
 
     #hero > div:first-child div {
         justify-content: start;
+    }
+
+    #hero > div:last-child {
+        grid-row: 1/1;
     }
 
     #best_weekly {
