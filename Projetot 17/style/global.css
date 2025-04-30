@@ -186,4 +186,8 @@ section {
     #hero > div:first-child div img {
         width: 1.5em;
     }
+
+    #hero div:last-child img {
+        width: 23em;
+    }
 }
