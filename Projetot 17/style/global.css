@@ -169,3 +169,21 @@ section {
         max-width: 20em;
     }
 }
+
+@media screen and (min-width: 57em) {
+    #hero > div:first-child h1 {
+        font-size: 2em;
+    }
+
+    #hero > div:first-child p {
+        font-size: 1em;
+    }
+
+    #hero > div:first-child div a {
+        font-size: 1em;
+    }
+
+    #hero > div:first-child div img {
+        width: 1.5em;
+    }
+}
