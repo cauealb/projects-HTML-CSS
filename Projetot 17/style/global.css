@@ -229,4 +229,16 @@ section {
     #weekly p {
         font-size: 1em;
     }
+
+    #best_weekly h2 {
+        font-size: 1.5em;
+    }
+
+    #best_weekly span, #best_weekly div span {
+        font-size: 0.90em;
+    }
+
+    #best_weekly p {
+        font-size: 1em;
+    }
 }
