@@ -228,6 +228,10 @@ section {
         width: 30em;
     }
 
+    #weekly {
+        column-gap: 5em;
+    }
+
     #weekly h2 {
         font-size: 1.5em;
     }
