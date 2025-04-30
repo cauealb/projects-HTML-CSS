@@ -108,12 +108,6 @@ section {
     }
 }
 
-@media screen and (min-width: 46em) {
-    #hero > div:first-child h1 {
-        font-size: 0.75em;
-    }
-}
-
 @media screen and (min-width: 47.94em) {
 
     #head {
@@ -123,6 +117,10 @@ section {
     #hero > div:last-child {
         display: inline;
         width: 100%;
+    }
+
+    #hero > div:last-child img {
+        width: 23em;
     }
 
     #navbar {
@@ -147,7 +145,19 @@ section {
     }
 
     #hero > div:first-child h1 {
-        font-size: 2em;
+        font-size: 1.3em;
+    }
+
+    #hero > div:first-child p {
+        font-size: 0.90em;
+    }
+
+    #hero > div:first-child div a {
+        font-size: 0.80em;
+    }
+
+    #hero > div:first-child div img {
+        width: 1em;
     }
 
     #best_weekly {
