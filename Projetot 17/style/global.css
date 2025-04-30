@@ -114,14 +114,6 @@ section {
         padding-block: 3em;
     }
 
-    #navbar {
-        display: flex;
-    }
-
-    #navbar a {
-        font-size: 0.75em;
-    }
-
     #hero {
         grid-auto-flow: column;
         padding-inline: 5em;
@@ -171,6 +163,15 @@ section {
 }
 
 @media screen and (min-width: 57em) {
+
+    #navbar {
+        display: flex;
+    }
+
+    #navbar a {
+        font-size: 0.75em;
+    }
+
     #hero > div:first-child h1 {
         font-size: 2em;
     }
