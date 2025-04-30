@@ -25,8 +25,14 @@
     box-sizing: border-box;
 }
 
+article {
+    display: grid;
+}
+
 article img {
+    justify-self: center;
     width: 25em;
+    margin-bottom: 0.50em;
 }
 
 article span, p {
