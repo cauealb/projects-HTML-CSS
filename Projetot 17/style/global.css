@@ -114,15 +114,6 @@ section {
         padding-block: 3em;
     }
 
-    #hero > div:last-child {
-        display: inline;
-        width: 100%;
-    }
-
-    #hero > div:last-child img {
-        width: 23em;
-    }
-
     #navbar {
         display: flex;
     }
@@ -145,7 +136,7 @@ section {
     }
 
     #hero > div:first-child h1 {
-        font-size: 1em;
+        font-size: 1.3em;
     }
 
     #hero > div:first-child p {
@@ -153,11 +144,20 @@ section {
     }
 
     #hero > div:first-child div a {
-        font-size: 0.80em;
+        font-size: 0.90em;
     }
 
     #hero > div:first-child div img {
         width: 1em;
+    }
+
+    #hero > div:last-child {
+        display: inline;
+        width: 100%;
+    }
+
+    #hero > div:last-child img {
+        width: 15em;
     }
 
     #best_weekly {
