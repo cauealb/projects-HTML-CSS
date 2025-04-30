@@ -159,6 +159,10 @@ section {
         width: 15em;
     }
 
+    #weekly {
+        padding-inline: 5em;
+    }
+
     #weekly h2 {
         font-size: 1.2em;
     }
@@ -172,7 +176,7 @@ section {
     }
 
     #best_weekly {
-        padding-inline: 1em;
+        padding-inline: 5em;
         grid-template-columns: repeat(3, 1fr);
     }
 
