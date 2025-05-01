@@ -57,13 +57,19 @@ section {
 
 #weekly > *, #best_weekly > * {
     padding-block: 1em;
-}
+} 
+
+
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+  }
 
 /* Responsive */
 /* Tablets */
 @media screen and (min-width: 35.94em) {
     .wrapper {
-        width: 100%;
+        /* width: 100%; */
         max-width: 1540px;
         margin-inline: auto;   
     }
