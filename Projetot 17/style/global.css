@@ -31,7 +31,8 @@ article {
 
 article img {
     justify-self: center;
-    width: 25em;
+    width: 100%;
+    max-width: 30em;
     margin-bottom: 0.50em;
 }
 
