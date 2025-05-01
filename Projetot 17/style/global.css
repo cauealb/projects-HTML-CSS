@@ -225,8 +225,9 @@ section {
         width: 1.5em;
     }
 
-    #hero div:last-child img {
-        width: 30em;
+    #hero > div:last-child img {
+        width: 100%;
+        min-width: 12em;
     }
 
     #weekly {
@@ -234,7 +235,7 @@ section {
     }
 
     #weekly h2 {
-        font-size: 2em;
+        font-size: 1.5em;
     }
 
     #weekly span, #weekly div span {
